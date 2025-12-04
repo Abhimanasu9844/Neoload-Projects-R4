@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Additional document" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="93ce451b-3c17-44ce-a922-cfcac28bbb73" weightsEnabled="false">
+    <weighted-embedded-action uid="ca2aea3f-bd19-4574-aa82-b375b5d7da59"/>
+    <weighted-embedded-action uid="34a3de3d-f837-42e1-919e-7577397a5d09"/>
+    <weighted-embedded-action uid="6fddb2a5-80ac-49f4-be37-2731c4d5ddc2"/>
+    <weighted-embedded-action uid="ad044937-1706-4044-8d49-06ba02f01cc5"/>
+</basic-logical-action-container>

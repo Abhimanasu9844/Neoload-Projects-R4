@@ -1,0 +1,122 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/web/login/response"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_4/%resources%/recorded-artifacts/d7898063-89c6-468a-9ed2-14420419716a.zip"
+    slaProfileEnabled="false" thinkTime="2745"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="d7898063-89c6-468a-9ed2-14420419716a">
+    <embedded-action>e387d334-a991-41b6-9a35-7a05f930935c</embedded-action>
+    <embedded-action>4edfdec1-5564-4f57-81ab-a9169b1e6da1</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_d7898063-89c6-468a-9ed2-14420419716a.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/login/response" path="/web/login/response"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_4/%resources%/recorded-artifacts/d7898063-89c6-468a-9ed2-14420419716a.zip"
+    recordedResponseCode="200" responseSize="1059"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="e387d334-a991-41b6-9a35-7a05f930935c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e387d334-a991-41b6-9a35-7a05f930935c.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e387d334-a991-41b6-9a35-7a05f930935c.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="code"
+        recordRawValue="9fec501a-b101-47ec-aafa-3300454acce3"
+        separator="=" value="9fec501a-b101-47ec-aafa-3300454acce3" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"
+        separator="="
+        value="eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://auth.tmsladcp.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html&#xd;
+date: Fri, 22 Aug 2025 10:17:26 GMT&#xd;
+content-encoding: br&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Thu, 21 Aug 2025 09:04:48 GMT&#xd;
+etag: W/"68a6e130-423"&#xd;
+vary: Origin&#xd;
+vary: Origin&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: XofSpq01Y0WlS-PMKaNItYcAshBZYSJ6CGuhexHyGtdPihZaQKr-bw==&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+referrer-policy: strict-origin-when-cross-origin&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com dataplane.rum.ap-southeast-1.amazonaws.com; img-src 'self' data:  api.qrserver.com;&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+x-sla-dcp: Govtech2024&#xd;
+server-timing: cfReqDur;dur=318.02&#xd;
+cf-team: 2972e199950000c1796132f400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/config.json" path="/web/config.json"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_4/%resources%/recorded-artifacts/d7898063-89c6-468a-9ed2-14420419716a.zip"
+    recordedResponseCode="200" responseSize="1741"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="4edfdec1-5564-4f57-81ab-a9169b1e6da1" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4edfdec1-5564-4f57-81ab-a9169b1e6da1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4edfdec1-5564-4f57-81ab-a9169b1e6da1.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1755857847157" separator="="
+        value="1755857847157" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/web/login/response?code=9fec501a-b101-47ec-aafa-3300454acce3&amp;state=eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Fri, 22 Aug 2025 10:17:27 GMT&#xd;
+content-encoding: br&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Thu, 21 Aug 2025 13:44:19 GMT&#xd;
+etag: W/"68a722b3-6cd"&#xd;
+vary: Origin&#xd;
+vary: Origin&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: P9_TyhqysPXJ-RaRa1_GdbGAerQl6rCzLQnzDALYtxzvygA66y8krw==&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+referrer-policy: strict-origin-when-cross-origin&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com dataplane.rum.ap-southeast-1.amazonaws.com; img-src 'self' data:  api.qrserver.com;&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+x-sla-dcp: Govtech2024&#xd;
+server-timing: cfReqDur;dur=193.379&#xd;
+cf-team: 2972e19bbb0000c17961372400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
