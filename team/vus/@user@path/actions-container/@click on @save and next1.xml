@@ -1,0 +1,18 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click on Save and next1" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="aae44692-86fa-4353-96a8-cd8a32b213fb" weightsEnabled="false">
+    <weighted-embedded-action uid="54540397-7c57-4cae-96c3-4c0450b7ed89"/>
+    <weighted-embedded-action uid="d193c72f-580f-4c01-9213-539034516a61"/>
+    <weighted-embedded-action uid="3ff74c8a-60a5-4c75-acc5-371550efefaf"/>
+    <weighted-embedded-action uid="e2ae6deb-47ab-4d6d-806e-2f24c0503132"/>
+    <weighted-embedded-action uid="01999fcc-4ea4-4dcd-8904-d66e13ae5846"/>
+    <weighted-embedded-action uid="191ea147-c6fb-446a-a852-d57876bc8e38"/>
+    <weighted-embedded-action uid="4761a89e-dde9-4096-b693-5cf4d7c8d38a"/>
+    <weighted-embedded-action uid="462e11b4-f04f-46a9-b189-57894e28461e"/>
+    <weighted-embedded-action uid="d6b62965-6868-4d4a-bffd-f6ab8ea73ec8"/>
+    <weighted-embedded-action uid="387f635b-02a8-4910-a527-0987b1e33053"/>
+    <weighted-embedded-action uid="30cd2cf4-3fbe-4350-b614-9fefd0b6011b"/>
+    <weighted-embedded-action uid="8a66ff1b-9ee4-49e4-a6dc-730c1396229c"/>
+    <weighted-embedded-action uid="3096dd2f-6b50-4767-95b6-02df594444e4"/>
+</basic-logical-action-container>

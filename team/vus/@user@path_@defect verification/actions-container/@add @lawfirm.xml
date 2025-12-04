@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add Lawfirm" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="8d6d696a-1986-4076-acca-ba89a9638f17" weightsEnabled="false">
+    <weighted-embedded-action uid="51574897-c2f0-40e9-87f0-a8880ac54735"/>
+    <weighted-embedded-action uid="9ff3310a-26c4-40e4-8d37-c6fc1d50a48e"/>
+    <weighted-embedded-action uid="8d80976c-3fd3-4421-abaa-5ea9d421a4b3"/>
+    <weighted-embedded-action uid="a8452d8f-4ce9-43af-af24-1b4755bf776c"/>
+    <weighted-embedded-action uid="6b5cb382-da4f-4b69-90a5-e1c6cf155574"/>
+    <weighted-embedded-action uid="7b97aa15-2c65-408f-99c8-ff465bb02bbc"/>
+    <weighted-embedded-action uid="8fc326bc-e542-45f9-896a-be908db0b20d"/>
+    <weighted-embedded-action uid="22d645bc-7f39-447b-9be6-d66b54902c4c"/>
+    <weighted-embedded-action uid="947fbcb8-55fd-4fdd-b8e5-38ac37302d5f"/>
+    <weighted-embedded-action uid="44427d33-6972-4bc6-bc10-6538c540be85"/>
+</basic-logical-action-container>

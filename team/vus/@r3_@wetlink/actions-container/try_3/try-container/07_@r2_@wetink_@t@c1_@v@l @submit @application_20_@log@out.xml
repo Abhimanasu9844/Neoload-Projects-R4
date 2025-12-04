@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC1_VL Submit Application_20_LogOut"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="1e4ad4e8-4fb4-4b03-9880-e70843b40484" weightsEnabled="false">
+    <weighted-embedded-action uid="841715bc-8925-4128-9922-101af8855048"/>
+    <weighted-embedded-action uid="ace95c99-b85e-4ce3-83b4-7f4f87a92d19"/>
+    <weighted-embedded-action uid="269f47c8-a829-4c6c-bd79-e72555e1fbd0"/>
+</basic-logical-action-container>

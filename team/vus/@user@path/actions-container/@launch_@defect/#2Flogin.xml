@@ -1,0 +1,292 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/login"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/b0537929-9d0e-4761-9062-cd5216942b6b.zip"
+    slaProfileEnabled="false" thinkTime="4501"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="b0537929-9d0e-4761-9062-cd5216942b6b">
+    <embedded-action>68e4f9c8-71ec-4cb3-bff8-47ae9e94f870</embedded-action>
+    <embedded-action>4406d862-1b7b-496a-92a7-fb675d312d5d</embedded-action>
+    <embedded-action>b8430c4f-d7aa-4fb2-b126-31718eac0081</embedded-action>
+    <embedded-action>8d01045d-6b1b-4cec-b5c4-a3397f937b98</embedded-action>
+    <embedded-action>6de26231-78a3-4624-977f-3f1545e13de5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_b0537929-9d0e-4761-9062-cd5216942b6b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/login" path="/login" postCharset="iso-8859-1"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/b0537929-9d0e-4761-9062-cd5216942b6b.zip"
+    recordedResponseCode="302"
+    refererUid="c3736d20-fa47-4430-a514-116183661b17" responseSize="0"
+    serverUid="auth.tmsladcp.com" slaProfileEnabled="false"
+    uid="68e4f9c8-71ec-4cb3-bff8-47ae9e94f870" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[X2NzcmY9YzA2NThjNDgtZjViZS00YjFlLWIyMzAtYmM2YjI0MzZjMmE0JnVzZXJuYW1lPVA2NjY2MzAxVCZwYXNzd29yZD0ke0F1dG9QYXNzd29yZF84fSZjb2duaXRvQXNmRGF0YT1leUp3WVhsc2IyRmtJam9pZTF3aVkyOXVkR1Y0ZEVSaGRHRmNJanA3WENKVmMyVnlRV2RsYm5SY0lqcGNJazF2ZW1sc2JHRXZOUzR3SUNoWGFXNWtiM2R6SUU1VUlERXdMakE3SUZkcGJqWTBPeUI0TmpRcElFRndjR3hsVjJWaVMybDBMelV6Tnk0ek5pQW9TMGhVVFV3c0lHeHBhMlVnUjJWamEyOHBJRU5vY205dFpTOHhNemd1TUM0d0xqQWdVMkZtWVhKcEx6VXpOeTR6Tmx3aUxGd2lSR1YyYVdObFNXUmNJanBjSW5sM05XTnlhM3BwYm5ZemFqVTBhSEIzZVd3eE9qRTNORFE1TmpjeU1qWTROak5jSWl4Y0lrUmxkbWxqWlV4aGJtZDFZV2RsWENJNlhDSmxiaTFWVTF3aUxGd2lSR1YyYVdObFJtbHVaMlZ5Y0hKcGJuUmNJanBjSWsxdmVtbHNiR0V2TlM0d0lDaFhhVzVrYjNkeklFNVVJREV3TGpBN0lGZHBialkwT3lCNE5qUXBJRUZ3Y0d4bFYyVmlTMmwwTHpVek55NHpOaUFvUzBoVVRVd3NJR3hwYTJVZ1IyVmphMjhwSUVOb2NtOXRaUzh4TXpndU1DNHdMakFnVTJGbVlYSnBMelV6Tnk0ek5sQkVSaUJXYVdWM1pYSTZRMmh5YjIxbElGQkVSaUJXYVdWM1pYSTZRMmh5YjIxcGRXMGdVRVJHSUZacFpYZGxjanBOYVdOeWIzTnZablFnUldSblpTQlFSRVlnVm1sbGQyVnlPbGRsWWt0cGRDQmlkV2xzZEMxcGJpQlFSRVk2Wlc0dFZWTmNJaXhjSWtSbGRtbGpaVkJzWVhSbWIzSnRYQ0k2WENKWGFXNHpNbHdpTEZ3aVEyeHBaVzUwVkdsdFpYcHZibVZjSWpwY0lpNDFPak13WENKOUxGd2lkWE5sY201aGJXVmNJanBjSWxBMk5qWTJNekF4VkZ3aUxGd2lkWE5sY2xCdmIyeEpaRndpT2x3aVhDSXNYQ0owYVcxbGMzUmhiWEJjSWpwY0lqRTNOVFU0TlRNM01USTNNakZjSW4waUxDSnphV2R1WVhSMWNtVWlPaUpWWjFCWmRrdFpOMngyYTNOclQwUXdhRkkzYm5nMGRIaGlUbEl2WkdaREwzQkRkVWhMWjNKNGF6RkZQU0lzSW5abGNuTnBiMjRpT2lKS1V6SXdNVGN4TVRFMUluMCUzRA==]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_68e4f9c8-71ec-4cb3-bff8-47ae9e94f870</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_68e4f9c8-71ec-4cb3-bff8-47ae9e94f870.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="_csrf"
+        recordRawValue="c0658c48-f5be-4b1e-b230-bc6b2436c2a4"
+        separator="=" value="c0658c48-f5be-4b1e-b230-bc6b2436c2a4" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="username"
+        recordRawValue="P6666301T" separator="=" value="P6666301T" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="password"
+        recordRawValue="${AutoPassword_8}" separator="="
+        value="${AutoPassword_8}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="cognitoAsfData"
+        recordRawValue="eyJwYXlsb2FkIjoie1wiY29udGV4dERhdGFcIjp7XCJVc2VyQWdlbnRcIjpcIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzguMC4wLjAgU2FmYXJpLzUzNy4zNlwiLFwiRGV2aWNlSWRcIjpcInl3NWNya3ppbnYzajU0aHB3eWwxOjE3NDQ5NjcyMjY4NjNcIixcIkRldmljZUxhbmd1YWdlXCI6XCJlbi1VU1wiLFwiRGV2aWNlRmluZ2VycHJpbnRcIjpcIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzguMC4wLjAgU2FmYXJpLzUzNy4zNlBERiBWaWV3ZXI6Q2hyb21lIFBERiBWaWV3ZXI6Q2hyb21pdW0gUERGIFZpZXdlcjpNaWNyb3NvZnQgRWRnZSBQREYgVmlld2VyOldlYktpdCBidWlsdC1pbiBQREY6ZW4tVVNcIixcIkRldmljZVBsYXRmb3JtXCI6XCJXaW4zMlwiLFwiQ2xpZW50VGltZXpvbmVcIjpcIi41OjMwXCJ9LFwidXNlcm5hbWVcIjpcIlA2NjY2MzAxVFwiLFwidXNlclBvb2xJZFwiOlwiXCIsXCJ0aW1lc3RhbXBcIjpcIjE3NTU4NTM3MTI3MjFcIn0iLCJzaWduYXR1cmUiOiJVZ1BZdktZN2x2a3NrT0QwaFI3bng0dHhiTlIvZGZDL3BDdUhLZ3J4azFFPSIsInZlcnNpb24iOiJKUzIwMTcxMTE1In0%3D"
+        separator="="
+        value="eyJwYXlsb2FkIjoie1wiY29udGV4dERhdGFcIjp7XCJVc2VyQWdlbnRcIjpcIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzguMC4wLjAgU2FmYXJpLzUzNy4zNlwiLFwiRGV2aWNlSWRcIjpcInl3NWNya3ppbnYzajU0aHB3eWwxOjE3NDQ5NjcyMjY4NjNcIixcIkRldmljZUxhbmd1YWdlXCI6XCJlbi1VU1wiLFwiRGV2aWNlRmluZ2VycHJpbnRcIjpcIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzguMC4wLjAgU2FmYXJpLzUzNy4zNlBERiBWaWV3ZXI6Q2hyb21lIFBERiBWaWV3ZXI6Q2hyb21pdW0gUERGIFZpZXdlcjpNaWNyb3NvZnQgRWRnZSBQREYgVmlld2VyOldlYktpdCBidWlsdC1pbiBQREY6ZW4tVVNcIixcIkRldmljZVBsYXRmb3JtXCI6XCJXaW4zMlwiLFwiQ2xpZW50VGltZXpvbmVcIjpcIi41OjMwXCJ9LFwidXNlcm5hbWVcIjpcIlA2NjY2MzAxVFwiLFwidXNlclBvb2xJZFwiOlwiXCIsXCJ0aW1lc3RhbXBcIjpcIjE3NTU4NTM3MTI3MjFcIn0iLCJzaWduYXR1cmUiOiJVZ1BZdktZN2x2a3NrT0QwaFI3bng0dHhiTlIvZGZDL3BDdUhLZ3J4azFFPSIsInZlcnNpb24iOiJKUzIwMTcxMTE1In0=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="response_type" recordRawValue="code" separator="="
+        value="code" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="client_id" recordRawValue="5f5ul10vparrk59n518gtm1kc9"
+        separator="=" value="5f5ul10vparrk59n518gtm1kc9" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"
+        separator="="
+        value="eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true" name="scope"
+        recordRawValue="openid" separator="=" value="openid" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="false"
+        name="redirect_uri"
+        recordRawValue="https://uat-dcp.sla.gov.sg/web/login/response"
+        separator="="
+        value="https://uat-dcp.sla.gov.sg/web/login/response" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://auth.tmsladcp.com/login?response_type=code&amp;client_id=5f5ul10vparrk59n518gtm1kc9&amp;state=eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9&amp;scope=openid&amp;redirect_uri=https://uat-dcp.sla.gov.sg/web/login/response"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="XSRF-TOKEN=c0658c48-f5be-4b1e-b230-bc6b2436c2a4; csrf-state=&quot;&quot;; csrf-state-legacy=&quot;&quot;"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://auth.tmsladcp.com"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="content-type" value="application/x-www-form-urlencoded"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 302&#xd;
+Content-Length: 0&#xd;
+location: https://uat-dcp.sla.gov.sg/web/login/response?code=3538a413-5fc0-4066-89b4-c790dee8001e&amp;state=eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9&#xd;
+date: Fri, 22 Aug 2025 09:08:33 GMT&#xd;
+x-amz-cognito-request-id: 4cf3a69d-4cd8-4d96-ba7c-172f4def1fac&#xd;
+set-cookie: XSRF-TOKEN=""; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Path=/; Secure; HttpOnly; SameSite=Lax&#xd;
+set-cookie: XSRF-TOKEN=1d00c499-1d61-4071-99a2-6ddf196eb072; Path=/; Secure; HttpOnly; SameSite=Lax&#xd;
+set-cookie: cognito="H4sIAAAAAAAAAAHYACf/Ppd1LtqrKKx6JTF9MC4xC+ILxt9sFKJLAZSl7pqXLMTB9s3/GYpwUijwaxUxibaZchzxWZLn4NF1buTwmX/MLy2VRp4aXmyMQ92k668OLIUz4NUpAfv9qVsxz8O0MJs4oKBrmn8i/trt2qLkrksQHXhs7zq3Klh4qj4irn28CIPbV9PNHR+1xUBf745r62q/vT1y+6l5h2a5idJm/AgOsMeRcdrsSZL8z9Iw5pGmmAocy/jf4T7ivGqUH2I3dV+vr+jiK0Xj7uWtP6LDKcgo5AdEjnuz4CWfxIMBptgAAAA=.H4sIAAAAAAAAAAEgAN//PYuE+I5JfuaivUEDza52m8PMgJ7ebM29doKIheuTuRw+IppVIAAAAA==.3"; Version=1; Domain=auth.tmsladcp.com; Max-Age=3600; Expires=Fri, 22-Aug-2025 10:08:33 GMT; Path=/; Secure; HttpOnly; SameSite=Lax&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 1; mode=block&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+server: Server&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 9d4cb3520655692757894ee39eb6efd6.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P8&#xd;
+x-amz-cf-id: 5x2B7sEXi0_LKNsf186uc7FGIqbsY15k14vJIWYwAQQg8CopLIAs-A==&#xd;
+server-timing: cfReqDur;dur=605.295&#xd;
+cf-team: 2972a2859b0000c17921540400000001</responseHeaders>
+    <record-html-infos extractorName="cognitoSignInForm"
+        extractorOccurence="1" extractorRegExp="false" htmlType="2"/>
+</http-action>
+<http-action actionType="2" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/login/response" path="/web/login/response"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/b0537929-9d0e-4761-9062-cd5216942b6b.zip"
+    recordedResponseCode="200"
+    refererUid="68e4f9c8-71ec-4cb3-bff8-47ae9e94f870"
+    responseSize="1059" serverUid="uat-dcp.sla.gov.sg"
+    slaProfileEnabled="false" uid="4406d862-1b7b-496a-92a7-fb675d312d5d" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4406d862-1b7b-496a-92a7-fb675d312d5d.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4406d862-1b7b-496a-92a7-fb675d312d5d.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="code"
+        recordRawValue="3538a413-5fc0-4066-89b4-c790dee8001e"
+        separator="=" value="3538a413-5fc0-4066-89b4-c790dee8001e" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="state"
+        recordRawValue="eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"
+        separator="="
+        value="eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="referer" value="https://auth.tmsladcp.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: text/html&#xd;
+date: Fri, 22 Aug 2025 09:08:33 GMT&#xd;
+content-encoding: br&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Thu, 21 Aug 2025 09:04:48 GMT&#xd;
+etag: W/"68a6e130-423"&#xd;
+vary: Origin&#xd;
+vary: Origin&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: Q39i1QkDlh2WtwPoFQpZj6AQKIH6F1cMIGV4gsz-11RvXXOuMEBfCg==&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+referrer-policy: strict-origin-when-cross-origin&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com dataplane.rum.ap-southeast-1.amazonaws.com; img-src 'self' data:  api.qrserver.com;&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+x-sla-dcp: Govtech2024&#xd;
+server-timing: cfReqDur;dur=299.367&#xd;
+cf-team: 2972a288090000c17921581400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/config.json" path="/web/config.json"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/b0537929-9d0e-4761-9062-cd5216942b6b.zip"
+    recordedResponseCode="200" responseSize="1741"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="b8430c4f-d7aa-4fb2-b126-31718eac0081" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b8430c4f-d7aa-4fb2-b126-31718eac0081</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b8430c4f-d7aa-4fb2-b126-31718eac0081.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="v"
+        recordRawValue="1755853713867" separator="="
+        value="1755853713867" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/web/login/response?code=3538a413-5fc0-4066-89b4-c790dee8001e&amp;state=eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Fri, 22 Aug 2025 09:08:34 GMT&#xd;
+content-encoding: br&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Thu, 21 Aug 2025 13:44:19 GMT&#xd;
+etag: W/"68a722b3-6cd"&#xd;
+vary: Origin&#xd;
+vary: Origin&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: dxtDOQq4AtfLTmj_7EKfbZJFRHw5BRr_Oep9z0lWP7I11srnatlSaQ==&#xd;
+x-xss-protection: 1; mode=block&#xd;
+x-frame-options: SAMEORIGIN&#xd;
+referrer-policy: strict-origin-when-cross-origin&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com dataplane.rum.ap-southeast-1.amazonaws.com; img-src 'self' data:  api.qrserver.com;&#xd;
+x-content-type-options: nosniff&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+x-sla-dcp: Govtech2024&#xd;
+server-timing: cfReqDur;dur=306.574&#xd;
+cf-team: 2972a28a0e0000c1792159b400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/src/assets/images/brand/dcp-logo.png"
+    path="/web/src/assets/images/brand/dcp-logo.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/b0537929-9d0e-4761-9062-cd5216942b6b.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="8d01045d-6b1b-4cec-b5c4-a3397f937b98" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8d01045d-6b1b-4cec-b5c4-a3397f937b98</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8d01045d-6b1b-4cec-b5c4-a3397f937b98.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/web/login/response?code=3538a413-5fc0-4066-89b4-c790dee8001e&amp;state=eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"/>
+    <header name="if-none-match" value="&quot;68a58baa-423&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="if-modified-since" value="Wed, 20 Aug 2025 08:47:38 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Thu, 21 Aug 2025 09:46:04 GMT&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Wed, 20 Aug 2025 08:47:38 GMT&#xd;
+etag: "68a58baa-423"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: asJNoy3b0984KWvIpSoW1G8OYRx7ljm0c0MhtJ5TOUexXngI8WkxwQ==&#xd;
+age: 84150&#xd;
+server-timing: cfReqDur;dur=109.152&#xd;
+cf-team: 2972a28a800000c179215a0400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/web/src/assets/images/brand/dcp-logo.png"
+    path="/web/src/assets/images/brand/dcp-logo.png" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/b0537929-9d0e-4761-9062-cd5216942b6b.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="6de26231-78a3-4624-977f-3f1545e13de5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_6de26231-78a3-4624-977f-3f1545e13de5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_6de26231-78a3-4624-977f-3f1545e13de5.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/web/login/response?code=3538a413-5fc0-4066-89b4-c790dee8001e&amp;state=eyJpZGVudGl0eVByb3ZpZGVyIjoiQ09HTklUTyIsImlzTG9jYWwiOiJmYWxzZSJ9"/>
+    <header name="if-none-match" value="&quot;68a58baa-423&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"/>
+    <header name="if-modified-since" value="Wed, 20 Aug 2025 08:47:38 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="image"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Thu, 21 Aug 2025 09:46:04 GMT&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Wed, 20 Aug 2025 08:47:38 GMT&#xd;
+etag: "68a58baa-423"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: u8XnbRT4dokKbwITpuDm30EFxksoBJzZ1KeJrIPge-Xz0N6E-cRjJg==&#xd;
+age: 84150&#xd;
+server-timing: cfReqDur;dur=107.506&#xd;
+cf-team: 2972a28afc0000c179215a1400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

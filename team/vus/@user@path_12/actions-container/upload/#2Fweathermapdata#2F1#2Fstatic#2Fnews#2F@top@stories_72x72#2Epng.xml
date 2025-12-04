@@ -1,0 +1,64 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/weathermapdata/1/static/news/TopStories_72x72.png"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_12/%resources%/recorded-artifacts/8a5bfd4a-329e-418f-8dfd-b981605615b2.zip"
+    slaProfileEnabled="false" thinkTime="38094"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8a5bfd4a-329e-418f-8dfd-b981605615b2">
+    <embedded-action>ff0ac87c-a3ac-43ec-a37e-e37e90f61609</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_8a5bfd4a-329e-418f-8dfd-b981605615b2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/png"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/weathermapdata/1/static/news/TopStories_72x72.png"
+    path="/weathermapdata/1/static/news/TopStories_72x72.png"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_12/%resources%/recorded-artifacts/8a5bfd4a-329e-418f-8dfd-b981605615b2.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="assets.msn.com" slaProfileEnabled="false"
+    uid="ff0ac87c-a3ac-43ec-a37e-e37e90f61609" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ff0ac87c-a3ac-43ec-a37e-e37e90f61609.png</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ff0ac87c-a3ac-43ec-a37e-e37e90f61609.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="assets.msn.com"/>
+    <header name="UA-CPU" value="AMD64"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/png&#xd;
+Content-MD5: +e3nnz8xgZqYSd/C0OInSg==&#xd;
+Last-Modified: Wed, 27 Mar 2024 03:51:39 GMT&#xd;
+ETag: 0x8DC4E113533EB5D&#xd;
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0&#xd;
+x-ms-request-id: b0ea7e5e-001e-00ea-119c-0501db000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 4434&#xd;
+Expires: Wed, 27 Aug 2025 03:10:40 GMT&#xd;
+Date: Fri, 22 Aug 2025 10:14:41 GMT&#xd;
+Connection: keep-alive&#xd;
+Alt-Svc: h3=":443"; ma=93600&#xd;
+Akamai-Request-BC: [a=69.192.1.206,b=1686821119,c=g,n=IN_KA_BANGALORE,o=20940]&#xd;
+Server-Timing: clientrtt; dur=37, clienttt; dur=0, origin; dur=0, cdntime; dur=0, wpo;dur=0,1s;dur=0&#xd;
+Server-Timing: cfReqDur;dur=91.598&#xd;
+Akamai-Cache-Status: Hit from child&#xd;
+Akamai-Server-IP: 69.192.1.206&#xd;
+Akamai-Request-ID: 648ad8ff&#xd;
+Cache-Control: public, max-age=2592000&#xd;
+Timing-Allow-Origin: *&#xd;
+Akamai-GRN: 0.ce01c045.1755857681.648ad8ff&#xd;
+Vary: Origin&#xd;
+Cf-Team: 2972df133f0000c1795e9f4400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

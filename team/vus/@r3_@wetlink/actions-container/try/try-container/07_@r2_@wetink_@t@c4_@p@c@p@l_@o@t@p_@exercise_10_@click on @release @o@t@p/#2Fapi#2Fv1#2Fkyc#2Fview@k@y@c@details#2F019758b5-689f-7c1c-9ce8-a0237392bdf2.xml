@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/kyc/viewKYCDetails/019758b5-689f-7c1c-9ce8-a0237392bdf2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/e178bdc3-42b4-4c30-a032-691286239f27.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="e178bdc3-42b4-4c30-a032-691286239f27">
+    <embedded-action>bb0f39eb-6299-402d-80d3-2fed6084650e</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_40c70b3c-8a9d-451f-ae10-6ae86776c06a.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/kyc/viewKYCDetails/019758b5-689f-7c1c-9ce8-a0237392bdf2"
+    path="/api/v1/kyc/viewKYCDetails/${C_Transactionid4}" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/e178bdc3-42b4-4c30-a032-691286239f27.zip"
+    recordedResponseCode="200" responseSize="470"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="bb0f39eb-6299-402d-80d3-2fed6084650e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cd79becb-0b06-443a-afa8-0cabbbec7f85</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cd79becb-0b06-443a-afa8-0cabbbec7f85.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="authorization" value="Bearer ${C_token74}"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/WetInkPurchaserReleaseOtp"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Tue, 10 Jun 2025 08:07:05 GMT&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 0298108af02f6ec7aff5bed25793bd00.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BLR50-P2&#xd;
+x-amz-cf-id: NBvK8xQJWfKPYV7SVpd0VTDZSU3E36q8OednfOHf26FUd5EIBj8EzA==&#xd;
+server-timing: cfReqDur;dur=1141.699&#xd;
+cf-team: 27fa7a00920000c1bda0f6d400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

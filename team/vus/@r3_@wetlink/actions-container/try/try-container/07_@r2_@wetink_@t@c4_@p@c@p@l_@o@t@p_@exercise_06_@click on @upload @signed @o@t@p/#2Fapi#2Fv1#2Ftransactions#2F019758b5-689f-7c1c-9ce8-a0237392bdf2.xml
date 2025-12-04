@@ -1,0 +1,72 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/transactions/019758b5-689f-7c1c-9ce8-a0237392bdf2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/4d26b00b-d97a-4c9c-bebc-0638d2e92d7e.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4d26b00b-d97a-4c9c-bebc-0638d2e92d7e">
+    <embedded-action>fa5a7c48-8866-4b83-8903-97b8d4fa2df4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_cd4f409b-6a62-4c97-8bd0-920f67da03db.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/transactions/019758b5-689f-7c1c-9ce8-a0237392bdf2"
+    path="/api/v1/transactions/${C_Transactionid4}" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/4d26b00b-d97a-4c9c-bebc-0638d2e92d7e.zip"
+    recordedResponseCode="200" responseSize="11434"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="fa5a7c48-8866-4b83-8903-97b8d4fa2df4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9999ee68-7064-4c86-958a-a47b28f08433</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9999ee68-7064-4c86-958a-a47b28f08433.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;," extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_userId4"
+        refererUid="9999ee68-7064-4c86-958a-a47b28f08433"
+        regExp="userId&quot;:&quot;(.*?)&quot;," regExpAdv=""
+        setDefaultValue="true" startsWithSimple="userId&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="703ba196-01d3-4036-8a1a-1e6cd7225d89" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="authorization" value="Bearer ${C_token74}"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/WetInkPurchaserVerify"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Tue, 10 Jun 2025 08:05:27 GMT&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 0298108af02f6ec7aff5bed25793bd00.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BLR50-P2&#xd;
+x-amz-cf-id: 41AvLPPzixfReNFUQYL71UdX8UiekRRZn8IysXA2S_ECZD8MZigWyQ==&#xd;
+server-timing: cfReqDur;dur=592.258&#xd;
+cf-team: 27fa7887290000c1bda00fa400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

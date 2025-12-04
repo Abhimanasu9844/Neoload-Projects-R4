@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Upload additional" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="517362d5-260f-4112-bd27-abbbab7cfe18" weightsEnabled="false">
+    <weighted-embedded-action uid="d190e7ed-b174-42de-b081-51fa954c22ae"/>
+    <weighted-embedded-action uid="88ca1109-612f-4f00-a108-52bbffab93f9"/>
+    <weighted-embedded-action uid="708d74ee-21d0-46e7-9914-0f20e08deda5"/>
+    <weighted-embedded-action uid="862a495b-4550-43f5-b871-cc88dbc0d46e"/>
+    <weighted-embedded-action uid="2e2f138d-1eb8-400d-99c4-fa46a3578e7b"/>
+</basic-logical-action-container>

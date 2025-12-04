@@ -1,0 +1,89 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/api/v1/lawfirms/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/94e74acd-0a4d-4273-80f2-027cd4cf64f3.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="94e74acd-0a4d-4273-80f2-027cd4cf64f3">
+    <embedded-action>7e3966cd-a2d5-41f6-aea4-fedcaa8594d4</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/v1/lawfirms/" path="/api/v1/lawfirms/"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/94e74acd-0a4d-4273-80f2-027cd4cf64f3.zip"
+    recordedResponseCode="200" responseSize="808"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="7e3966cd-a2d5-41f6-aea4-fedcaa8594d4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c14bcb0c-d8f4-4f23-815a-ddea36fd2bf1</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c14bcb0c-d8f4-4f23-815a-ddea36fd2bf1.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_lawFirmId"
+        refererUid="406ae719-7bb4-4765-b4d0-e74bcc9d35e6"
+        regExp="&quot;lawFirmId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;lawFirmId&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="a7350d6e-9f61-4353-a909-8ba2690cacad" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_LawyerLoginID"
+        refererUid="803fc07d-3b9e-46d5-970f-34bc06f9b4dc"
+        regExp="&quot;lawFirmUen&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;lawFirmUen&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="56fe6348-34b7-47d7-bfe4-93a67f82556d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="false" name="search"
+        recordRawValue="lawFirmName:*Lawfirm221*,isOnBoarded:true"
+        separator="="
+        value="lawFirmName:*${07_Wetink.LawFirm}*,isOnBoarded:true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageSize"
+        recordRawValue="30" separator="=" value="30" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:58:56 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 a9fb1933765b2e0a17ee7cee382c4058.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: P17HF7pClguyhPGDas6Ag_rKuxShtvyKH3hgb1-El_1Edogqnq9E4w==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

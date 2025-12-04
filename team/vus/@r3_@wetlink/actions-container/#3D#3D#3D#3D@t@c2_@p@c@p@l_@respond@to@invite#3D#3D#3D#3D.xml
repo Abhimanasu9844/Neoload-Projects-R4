@@ -1,0 +1,5 @@
+<delay-action duration="0" enabled="false" isThinkTime="true"
+    name="====TC2_PCPL_RespondToInvite===="
+    timeMode="MODE_RANGE_THINK_TIME"
+    timeRangeEnd="${ThinkTime.N_Max_ThinkTime}"
+    timeRangeStart="${ThinkTime.N_Min_ThinkTime}" uid="dde57e25-cd12-464d-9b8c-5ecce2c3b47e"/>

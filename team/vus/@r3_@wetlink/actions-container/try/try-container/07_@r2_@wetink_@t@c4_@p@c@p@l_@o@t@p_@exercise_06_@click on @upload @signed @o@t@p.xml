@@ -1,0 +1,18 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_06_Click on Upload Signed OTP"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="00595326-2c7a-4f41-afb6-bef745b0bc3f" weightsEnabled="false">
+    <weighted-embedded-action uid="a190770c-7e17-4c1d-9ade-673afed85f19"/>
+    <weighted-embedded-action uid="9a2e6ce8-0b9d-42b5-96c1-d0d2df3cd0f5"/>
+    <weighted-embedded-action uid="4d26b00b-d97a-4c9c-bebc-0638d2e92d7e"/>
+    <weighted-embedded-action uid="4fa259af-f13d-47a8-8de1-ae7f23c8c804"/>
+    <weighted-embedded-action uid="70453fab-4f4d-452d-b77c-f8dbb0400700"/>
+    <weighted-embedded-action uid="ff6c7505-cd67-4cae-afc4-28eab6fd130c"/>
+    <weighted-embedded-action uid="d9193cc4-94b5-446d-99c6-e385e35e8b56"/>
+    <weighted-embedded-action uid="0ebe87d1-8d6d-4d3d-9ce5-8518a58c813d"/>
+    <weighted-embedded-action uid="0354c7eb-a7fa-4303-936f-e7bab29cb4d6"/>
+    <weighted-embedded-action uid="6187aeb7-1144-480c-be44-ebec777364bc"/>
+    <weighted-embedded-action uid="6ddf88de-c3b2-42f2-94db-bcab6af9e44b"/>
+    <weighted-embedded-action uid="ad0dec02-73d3-470b-b8c7-eb6c3fbaa1df"/>
+</basic-logical-action-container>

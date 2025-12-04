@@ -1,0 +1,513 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/wetink-transactions/saga"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="42c3ed4a-58b8-48c8-a287-c6c3b1f6999a">
+    <embedded-action>84e30e7a-6b94-47c3-ba69-84080701150e</embedded-action>
+    <embedded-action>ecbcc6f0-c250-47fb-9db6-8c9030e2b5f3</embedded-action>
+    <embedded-action>f36cece7-f493-41fa-8411-52ca34108a18</embedded-action>
+    <embedded-action>5057b0ea-2144-4335-a383-6205e56b7c3c</embedded-action>
+    <embedded-action>2ab0d652-e40d-4253-b26c-e1b442c88176</embedded-action>
+    <embedded-action>758da4d6-fa3b-4f0f-b08b-9e8b69abd1f3</embedded-action>
+    <embedded-action>84d9e18f-edf5-4ab8-b4a7-783c9419a07b</embedded-action>
+    <embedded-action>92fe315b-3aee-4cb0-9a07-053995ec55ac</embedded-action>
+    <embedded-action>ca113bed-161b-43ab-8368-ae3db30f41d4</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/v1/wetink-transactions/saga"
+    path="/api/v1/wetink-transactions/saga" postType="4"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="430"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="84e30e7a-6b94-47c3-ba69-84080701150e" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_bc8f8561-77c5-43bf-8d43-a9e418a5f06c</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_bc8f8561-77c5-43bf-8d43-a9e418a5f06c.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_transactionId"
+        refererUid="c9ad3897-c008-40cb-a42f-ff42f8e3f2a4"
+        regExp="&quot;transactionId&quot;:&quot;(.*?)&quot;"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="&quot;transactionId&quot;:&quot;"
+        template="$1$" templateAdv="$1$"
+        uid="ac673862-680e-48ef-8e60-0b64a801512d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=","
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="C_transactionNumber"
+        refererUid="c9ad3897-c008-40cb-a42f-ff42f8e3f2a4"
+        regExp="&quot;transactionNumber&quot;:(.*?)," regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;transactionNumber&quot;:" template="$1$"
+        templateAdv="$1$" uid="8f2188ab-127a-42ca-8afe-b009327b06ad" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="body" value="{&quot;transactionTypeId&quot;:&quot;2e0c1401-fb98-46cf-a466-493151f4c6e6&quot;,&quot;transactionFlowTypeCode&quot;:&quot;WET_INK_OTP&quot;,&quot;initiatedBy&quot;:&quot;VL&quot;,&quot;developerSaleTransactionId&quot;:null,&quot;propertyRequestModel&quot;:{&quot;projectId&quot;:null,&quot;postalCode&quot;:&quot;${07_Wetink.PostCode}&quot;,&quot;blockHouseNumber&quot;:&quot;${C_BlockNo}&quot;,&quot;streetName&quot;:&quot;${C_StreetName}&quot;,&quot;floorNumber&quot;:&quot;${07_Wetink.Level}&quot;,&quot;unitNumber&quot;:&quot;${07_Wetink.Unit}&quot;,&quot;buildingName&quot;:&quot;${C_Building}&quot;,&quot;propertyTypeId&quot;:&quot;d4b8e122-f62a-4b89-bba8-973b70b296eb&quot;,&quot;propertyStatusId&quot;:&quot;238bcad3-a542-4f56-bf31-901c29307d8b&quot;,&quot;titleNo&quot;:&quot;&quot;,&quot;lotNo&quot;:&quot;&quot;},&quot;transactionUsersModel&quot;:[{&quot;roleId&quot;:&quot;${C_roleId_V}&quot;,&quot;consentStatusId&quot;:&quot;f83248b3-b375-4bad-b9b9-6caf88929251&quot;,&quot;identificationNoType_Tx&quot;:&quot;7c89ae34-e84a-416e-a67b-967a8dd609fa&quot;,&quot;residentialStatus_Tx&quot;:&quot;163c4d55-9c8a-4a78-8edc-169916a64fcd&quot;,&quot;userName&quot;:&quot;${C_name_V}&quot;,&quot;identificationNo_Tmp&quot;:&quot;${C_identificationNo_V}&quot;,&quot;emailAddress&quot;:&quot;${C_emailAddress_V}&quot;,&quot;isSoleWitness&quot;:false},{&quot;roleId&quot;:&quot;${C_roleId_VL}&quot;,&quot;consentStatusId&quot;:&quot;7ecccb3a-37f9-45f7-a7e8-a0fb99e221cb&quot;,&quot;identificationNoType_Tx&quot;:&quot;7c89ae34-e84a-416e-a67b-967a8dd609fa&quot;,&quot;residentialStatus_Tx&quot;:&quot;163c4d55-9c8a-4a78-8edc-169916a64fcd&quot;,&quot;userName&quot;:&quot;${C_name_VL}&quot;,&quot;userId&quot;:&quot;${C_userId_VL}&quot;,&quot;identificationNo_Tmp&quot;:&quot;&quot;,&quot;emailAddress&quot;:&quot;${C_emailAddress_VL}&quot;,&quot;isSoleWitness&quot;:false,&quot;companyType&quot;:&quot;LF&quot;,&quot;companyId&quot;:&quot;${C_companyId_VL}&quot;}]}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="headers" value="[object Object]"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="method" value="POST"/>
+    <header name="Origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkProperty"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:22 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 69ce12cd28f192f5e142ba57e5fe0b80.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: ZEdUmUVUJd3fNa1VD2hjo3D0zkTmgO_M6PnagsrIuyYf3Fn8uD6kog==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"transactionTypeId":"2e0c1401-fb98-46cf-a466-493151f4c6e6","transactionFlowTypeCode":"WET_INK_OTP","initiatedBy":"VL","developerSaleTransactionId":null,"propertyRequestModel":{"projectId":null,"postalCode":"${07_Wetink.PostCode}","blockHouseNumber":"${C_BlockNo}","streetName":"${C_StreetName}","floorNumber":"${07_Wetink.Level}","unitNumber":"${07_Wetink.Unit}","buildingName":"${C_Building}","propertyTypeId":"d4b8e122-f62a-4b89-bba8-973b70b296eb","propertyStatusId":"238bcad3-a542-4f56-bf31-901c29307d8b","titleNo":"","lotNo":""},"transactionUsersModel":[{"roleId":"${C_roleId_V}","consentStatusId":"f83248b3-b375-4bad-b9b9-6caf88929251","identificationNoType_Tx":"7c89ae34-e84a-416e-a67b-967a8dd609fa","residentialStatus_Tx":"163c4d55-9c8a-4a78-8edc-169916a64fcd","userName":"${C_name_V}","identificationNo_Tmp":"${C_identificationNo_V}","emailAddress":"${C_emailAddress_V}","isSoleWitness":false},{"roleId":"${C_roleId_VL}","consentStatusId":"7ecccb3a-37f9-45f7-a7e8-a0fb99e221cb","identificationNoType_Tx":"7c89ae34-e84a-416e-a67b-967a8dd609fa","residentialStatus_Tx":"163c4d55-9c8a-4a78-8edc-169916a64fcd","userName":"${C_name_VL}","userId":"${C_userId_VL}","identificationNo_Tmp":"","emailAddress":"${C_emailAddress_VL}","isSoleWitness":false,"companyType":"LF","companyId":"${C_companyId_VL}"}]}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT" name="/api/v1/transactions/updateStatus"
+    path="/api/v1/transactions/updateStatus" postType="4"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="227"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="ecbcc6f0-c250-47fb-9db6-8c9030e2b5f3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_76bf0f48-cbc3-4ecd-bb91-d00196613fac</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_76bf0f48-cbc3-4ecd-bb91-d00196613fac.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="body" value="{&quot;transactionId&quot;:[&quot;${C_transactionId}&quot;],&quot;statusCode&quot;:&quot;W_PENDING_DRAFT_S1&quot;}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="headers" value="[object Object]"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="method" value="PUT"/>
+    <header name="Origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkProperty"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:22 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 69ce12cd28f192f5e142ba57e5fe0b80.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: yAjKmgvlFGl1BXWXEjNOUGIqnWuYGe9RqOPNHsYMuKhD7O3ibpoz_w==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"transactionId":["${C_transactionId}"],"statusCode":"W_PENDING_DRAFT_S1"}]]></textPostContent>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/transactions/01973e72-7ea1-7fbe-bdd6-d78ab8000eca/users"
+    path="/api/v1/transactions/${C_transactionId}/users" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="2346"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="f36cece7-f493-41fa-8411-52ca34108a18" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_e49469e4-3abd-4518-8a2f-a2909230b65e</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_e49469e4-3abd-4518-8a2f-a2909230b65e.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="sortBy"
+        recordRawValue="userName" separator="=" value="userName" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="sortOrder"
+        recordRawValue="ASC" separator="=" value="ASC" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkProperty"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:22 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 4e7ab7d3a1019b0c033068318d72e5ee.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: dOffxig6WiQu6iGqukW3ikxFIjg39Nz5gdtL4Sb2DVVs9lHbRKJlXg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/transactions/01973e72-7ea1-7fbe-bdd6-d78ab8000eca/estateagencies"
+    path="/api/v1/transactions/${C_transactionId}/estateagencies"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="2"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="5057b0ea-2144-4335-a383-6205e56b7c3c" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c5732bab-02fd-48ad-8a14-f20968639079</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c5732bab-02fd-48ad-8a14-f20968639079.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:22 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 69ce12cd28f192f5e142ba57e5fe0b80.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: oHBXv4scjVP_jWMJpRP6LCwNDHzMN9evKMrZmNTtm9tJncjiclh01g==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/users/de183c13-b4de-4c4d-bef0-daea3acdf805"
+    path="/api/v1/users/${C_userId_VL}" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="1030"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="2ab0d652-e40d-4253-b26c-e1b442c88176" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c3546838-4d30-4555-b75b-e7251d699efb</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c3546838-4d30-4555-b75b-e7251d699efb.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:22 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 69ce12cd28f192f5e142ba57e5fe0b80.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: AEQRhj1k_x21x1KrSblUmpzwqjGuo_ra6wE7mJvYJBwxz8grfCtS6A==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/v1/conveyancing-journey/view"
+    path="/api/v1/conveyancing-journey/view" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="3015"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="758da4d6-fa3b-4f0f-b08b-9e8b69abd1f3" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_cf089d08-61f0-477e-aff3-6a447843c479</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_cf089d08-61f0-477e-aff3-6a447843c479.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="referenceId"
+        recordRawValue="01973e72-7ea1-7fbe-bdd6-d78ab8000eca"
+        separator="=" value="${C_transactionId}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="referenceType"
+        recordRawValue="transaction" separator="=" value="transaction" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:23 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 69ce12cd28f192f5e142ba57e5fe0b80.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: fEa4c3ZA4ZMLrIbP_KLgcoHmTjTjO6V74hq5SL08SPCfYtZMFPPzuA==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/v1/lawfirmstaffs"
+    path="/api/v1/lawfirmstaffs" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="1616"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="84d9e18f-edf5-4ab8-b4a7-783c9419a07b" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_c2acc473-837a-4b29-a41b-040156aa4e97</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c2acc473-837a-4b29-a41b-040156aa4e97.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="transactionId"
+        recordRawValue="01973e72-7ea1-7fbe-bdd6-d78ab8000eca"
+        separator="=" value="${C_transactionId}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="false" name="search"
+        recordRawValue="lawFirmId:2e46f293-52d0-4c00-9809-9ac63747c050,isOnBoarded:true"
+        separator="="
+        value="lawFirmId:${C_companyId_VL},isOnBoarded:true" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="pageSize"
+        recordRawValue="30" separator="=" value="30" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:23 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 2f37710b411dfd57a465b8ca27d41bee.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: 6wgTspkQwMKI81DhCiFsNzBG00478D2xo16cgwFUKSWHoVNaOtUnqg==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/transactions/01973e72-7ea1-7fbe-bdd6-d78ab8000eca/lawfirms"
+    path="/api/v1/transactions/${C_transactionId}/lawfirms" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="592"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="92fe315b-3aee-4cb0-9a07-053995ec55ac" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b22be8f2-cbc5-4d84-9759-299febdd6e3f</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b22be8f2-cbc5-4d84-9759-299febdd6e3f.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:23 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 4e7ab7d3a1019b0c033068318d72e5ee.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: hae1dRvsn9PJmEtzq1kr94w3UGVCCM1Jy1YwpDmkrHA_0dQNnjNbxw==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/lawfirms/2e46f293-52d0-4c00-9809-9ac63747c050"
+    path="/api/v1/lawfirms/${C_companyId_VL}" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/42c3ed4a-58b8-48c8-a287-c6c3b1f6999a.zip"
+    recordedResponseCode="200" responseSize="491"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="ca113bed-161b-43ab-8368-ae3db30f41d4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b03491d4-6907-4840-90cc-3319f23890f9</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b03491d4-6907-4840-90cc-3319f23890f9.txt</requestContentFileDescription>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/wetInkParties"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 04:56:23 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 4e7ab7d3a1019b0c033068318d72e5ee.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: A04NCZksH_HZhVogGDUuWVmEkI2NLDvlFQm72zvbV1P6S3Q1N8DGBQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

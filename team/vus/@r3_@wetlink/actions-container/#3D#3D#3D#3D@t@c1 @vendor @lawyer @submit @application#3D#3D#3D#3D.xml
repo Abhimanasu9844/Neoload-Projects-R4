@@ -1,0 +1,3 @@
+<delay-action duration="500" enabled="false" isThinkTime="true"
+    name="====TC1 Vendor Lawyer Submit Application===="
+    timeMode="MODE_SIMPLE_THINK_TIME" timeRangeEnd="" timeRangeStart="" uid="b36190a9-0140-41aa-ba9b-9f42050b259e"/>

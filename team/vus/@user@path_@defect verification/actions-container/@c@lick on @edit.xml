@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CLick on Edit" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="1596c686-16a9-4ed7-8ad2-5bcae4d53247" weightsEnabled="false">
+    <weighted-embedded-action uid="24b31429-4e20-4265-bd24-3a005e3fb423"/>
+</basic-logical-action-container>

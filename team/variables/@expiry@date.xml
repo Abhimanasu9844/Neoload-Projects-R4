@@ -1,0 +1,1 @@
+<variable-currentdate inc-type="3" inc-value="14" name="ExpiryDate" order="1" pattern="yyyy-MM-dd" policy="1" range="2" uid="85a6fac4-f707-4c27-bccc-7c295111c84a" whenOutOfValues="CYCLE_VALUES"/>

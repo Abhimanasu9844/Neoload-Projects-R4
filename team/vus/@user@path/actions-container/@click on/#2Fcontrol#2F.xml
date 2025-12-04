@@ -1,0 +1,52 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/control/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/288f63fd-074d-4e49-a20a-fbccd465c87c.zip"
+    slaProfileEnabled="false" thinkTime="8068"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="288f63fd-074d-4e49-a20a-fbccd465c87c">
+    <embedded-action>c458d314-c00d-483a-b1af-76fcaead87ac</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_288f63fd-074d-4e49-a20a-fbccd465c87c.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/x-amz-json-1.1"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/control/" path="/control/" postType="2"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/288f63fd-074d-4e49-a20a-fbccd465c87c.zip"
+    recordedResponseCode="400" responseSize="0"
+    serverUid="sso.ap-southeast-1.amazonaws.com"
+    slaProfileEnabled="false" uid="c458d314-c00d-483a-b1af-76fcaead87ac" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[e30=]]></binaryPostContentBase64>
+    <responsePageFileDescription>recorded-responses/res_c458d314-c00d-483a-b1af-76fcaead87ac</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_c458d314-c00d-483a-b1af-76fcaead87ac.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="x-amz-content-sha256" value="44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"/>
+    <header name="referer" value="https://ap-southeast-1.console.aws.amazon.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-amz-date" value="20250822T091137Z"/>
+    <header name="origin" value="https://ap-southeast-1.console.aws.amazon.com"/>
+    <header name="x-amz-user-agent" value="aws-sdk-js/2.1623.0 promise"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="x-amz-security-token" value="IQoJb3JpZ2luX2VjELn//////////wEaDmFwLXNvdXRoZWFzdC0xIkcwRQIgbdH0YS44PSSuVZwTYOcKJWg1xEXWAob6Ti9eqE9VCLECIQDvUGquyZdZjMPRj53uGIQ6BcUjfivwYgzqp6wHSsT1eir8AwgSEAEaDDg2NjQ1MDI0NDM5MiIMHePfczwjB61ddqOIKtkDX3nbgVhRy/Xd3EidosoSkqTUIrDM/9sR1V8Wd8YahP4Q2/FvE4oDfM6Oc9kKWXRGQdrrmeVIdkBfQjCeWgWvnmj7saWtYmVJ5TVuWp7ny1I+kQgqg3Q1+Wu6u6HH1bUKmZUnkAgZIwnqBLxrSdHfAEdAtBWF8w1jbiADrw9GFOJbwTfpHEA3xmTSFsTUjtAQbFPd92RxN+SG99nHr9H6XAofNVQKp4HcA0tdK8B425XZTRqpHzLeOaknpKdVdgkiKo2nuRRTS+TLISWiIrPx60VeJB7ROP31Kbg0gnRxUByNTe8n8bdM9XCEmorqfcn+6tR+GdDcZvsKM6F1X5kM0dt2EV0DiucrjcRq+nUJ1i5TYv6uRPxaQBbAJAbunw0KMMOA9rxxQN2c4H2RuvQIlhfOSw/FnocrpLMAljPkoJcSYCQhzVU8sDEZGIGfRwDBfpJHjBlDTImqlJiE/mClsQir/5PdOiXqalRim+Rsd9EM1aEuV592ZD+3MWrsMbRsEnhbPST2ULNgawdqKMIl1wpFuAtnDUCvZTCklvwCkiQPTY0qrv5uLyoGFmrooDsGeF5ps5mMdnPJXfcN1REodVp4qnc9ZDLr3CEoxBcnGboM/4LeAPG1vtIw89GgxQY6lAJfVtmioOHPrkzWPYx5VMeNdiWrE2VUcANnJUUdlt+1vDhSSgxttFNVt16e1f3i19h0H6UBqhnB2xANiCFLECxC1g7MgNeFDz1lfxqfPhcjsBZycgYrICrFOxqYVeegnvs05FfzCJWVH2upTveiKvj/2ZR3aGrZE4avlaGH/VsScbLVU6c9pP5Khhwrhaudc8lWj3tRjbn89M7LhcmfnAvaM749q/r2idqRde9GeN5mkNtR3G4cFH4GAFZkNjy0dRqHKnrYpNyPJrE+Q1wPwTBSPjcFmWwg6w9SPCMgbl7p93ImZVtkJ7K9UR9ISqZHcuhqon7b6XgH+qJYZNQjqz12R52R0WvSEzAd6cQ9/v4chEZG43s="/>
+    <header name="accept" value="*/*"/>
+    <header name="authorization" value="AWS4-HMAC-SHA256 Credential=ASIA4TPDVQMULNNEBHYK/20250822/ap-southeast-1/sso/aws4_request, SignedHeaders=host;x-amz-content-sha256;x-amz-date;x-amz-security-token;x-amz-target;x-amz-user-agent, Signature=47ea4da32f83238b804b56e1c5b7eaa67456b66909961823e5987855f6eb3d99"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Microsoft Edge&quot;;v=&quot;138&quot;"/>
+    <header name="x-amz-target" value="SWBService.ListDirectoryAssociations"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/x-amz-json-1.1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"/>
+    <responseHeaders>HTTP/2.0 400&#xd;
+date: Fri, 22 Aug 2025 09:11:38 GMT&#xd;
+content-type: application/x-amz-json-1.1&#xd;
+content-length: 376&#xd;
+x-amzn-requestid: 611a6f15-69af-45b9-b3c9-d57a715350f8&#xd;
+access-control-allow-origin: *&#xd;
+access-control-expose-headers: x-amzn-RequestId,x-amzn-ErrorType,x-amzn-ErrorMessage,Date,smithy-protocol</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

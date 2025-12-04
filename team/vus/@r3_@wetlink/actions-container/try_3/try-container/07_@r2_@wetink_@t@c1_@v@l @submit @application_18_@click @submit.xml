@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC1_VL Submit Application_18_Click Submit"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="e72e3d1d-b534-4abe-965d-4464689c6f93" weightsEnabled="false">
+    <weighted-embedded-action uid="d1fd357a-aa2f-478b-9cb5-4bdbee18ae62"/>
+    <weighted-embedded-action uid="729690b8-63ff-472e-9541-81ffa48fc78d"/>
+</basic-logical-action-container>

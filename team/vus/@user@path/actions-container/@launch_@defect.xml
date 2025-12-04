@@ -1,0 +1,19 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Launch_Defect" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="b2eb450b-46cb-4a8a-9cc8-c659e98a4ab4" weightsEnabled="false">
+    <weighted-embedded-action uid="6b83f715-1163-4a0c-934d-6167d8bf4d50"/>
+    <weighted-embedded-action uid="6168899f-cd1b-455d-accd-4b330c2508e4"/>
+    <weighted-embedded-action uid="0c316ffc-178a-411b-bf68-8483fa28e9c2"/>
+    <weighted-embedded-action uid="aabc83a3-498f-42ff-bd0f-84c468ac602f"/>
+    <weighted-embedded-action uid="b0537929-9d0e-4761-9062-cd5216942b6b"/>
+    <weighted-embedded-action uid="e876afde-2b7e-4082-9866-70f30b27ba9c"/>
+    <weighted-embedded-action uid="7c54ae2c-f878-4225-a0b3-fe129732b881"/>
+    <weighted-embedded-action uid="49948c0d-6cc0-43f7-bc5b-2ee32dc3f546"/>
+    <weighted-embedded-action uid="61df3a5e-52e3-42d2-b226-94e0fcf33f71"/>
+    <weighted-embedded-action uid="0d3e435a-6d95-45af-8253-62498cc4d8e4"/>
+    <weighted-embedded-action uid="acbd64ab-9f4e-4da9-bf57-79cd7fb7a446"/>
+    <weighted-embedded-action uid="7b8469c0-192f-42a1-8429-0ff699dc180d"/>
+    <weighted-embedded-action uid="f9ccc591-9b25-4878-8df7-f687e42bcc86"/>
+    <weighted-embedded-action uid="756e7ce2-5662-448b-9d08-8776dcb02191"/>
+</basic-logical-action-container>

@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_11_LogOut" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="89ab8884-0d95-46c7-867b-38e7b0698ece" weightsEnabled="false">
+    <weighted-embedded-action uid="15d894b1-fa77-445d-bc2b-79fa41d69224"/>
+    <weighted-embedded-action uid="f30ab0e8-cf61-4844-a5bf-640a4ad7c445"/>
+    <weighted-embedded-action uid="70be721b-0e62-49a2-a133-8cdab1f96b59"/>
+</basic-logical-action-container>

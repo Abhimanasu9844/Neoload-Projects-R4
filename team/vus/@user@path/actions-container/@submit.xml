@@ -1,0 +1,11 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Submit" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0cec7215-8f8d-427a-b436-c6cce643f6e5" weightsEnabled="false">
+    <weighted-embedded-action uid="59e6738f-9952-483a-87b4-0e9a8a03a35c"/>
+    <weighted-embedded-action uid="fbd1c5fd-8c64-4283-9aca-2d943b223a0a"/>
+    <weighted-embedded-action uid="adb3f35b-49a8-4493-9e41-af9088376244"/>
+    <weighted-embedded-action uid="7f91d6f4-5c5c-4e98-9683-ee8f9586a035"/>
+    <weighted-embedded-action uid="b1752f23-e39c-4d3e-a48f-c395183e2b77"/>
+    <weighted-embedded-action uid="9e67a70e-0e4c-466a-a56e-219adfe39349"/>
+</basic-logical-action-container>

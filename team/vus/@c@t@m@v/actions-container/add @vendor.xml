@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="add Vendor" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="0c236c57-4c38-47a9-a994-3a566cba7887" weightsEnabled="false">
+    <weighted-embedded-action uid="547a742e-4bcf-4b37-9835-d1aa6e184eac"/>
+    <weighted-embedded-action uid="a3e720f6-2a4e-4545-b694-0b44b3e199c9"/>
+</basic-logical-action-container>

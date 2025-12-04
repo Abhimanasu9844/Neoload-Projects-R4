@@ -1,0 +1,6 @@
+<http-server hostname="ap-southeast-1.prod.pr.panorama.console.api.aws"
+    port="443" ssl="true"
+    uid="ap-southeast-1.prod.pr.panorama.console.api.aws"
+    urlrewriting-argument-name="" urlrewriting-enabled="false"
+    urlrewriting-path-extension="false"
+    urlrewriting-path-not-equals="false" urlrewriting-path-separator=";"/>

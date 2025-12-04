@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC2_PCPL_RespondToInvite_07_LogOut" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="a6a80b24-4e1f-41f9-a03b-9cfd749c22e6" weightsEnabled="false">
+    <weighted-embedded-action uid="fae25e4e-bd0c-4a38-9522-d7792f48af34"/>
+    <weighted-embedded-action uid="20fc1ce2-f5f4-4290-88b6-122b7e372360"/>
+</basic-logical-action-container>

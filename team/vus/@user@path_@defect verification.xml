@@ -1,0 +1,38 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="UserPath_Defect verification">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="8c73b989-b851-42ba-aa55-bd06e9506f30"/>
+        <weighted-embedded-action uid="70ca62e4-7003-4113-85d9-a4415af24455"/>
+        <weighted-embedded-action uid="894057ab-047b-4bb9-ab8b-f5c66aad935b"/>
+        <weighted-embedded-action uid="1295d39b-888e-46d6-93a6-e8ced3e60563"/>
+        <weighted-embedded-action uid="a5b96071-8155-43e9-ac2d-279699b6d6fb"/>
+        <weighted-embedded-action uid="1bc545d5-9ce3-4f18-b3d5-76b120fec724"/>
+        <weighted-embedded-action uid="74827dc3-dc32-49d8-9ada-e85275b48398"/>
+        <weighted-embedded-action uid="4aa0f468-73ef-4dd4-a42e-210e63e8c59d"/>
+        <weighted-embedded-action uid="8d6d696a-1986-4076-acca-ba89a9638f17"/>
+        <weighted-embedded-action uid="43e67683-a391-4fda-8579-513594e60691"/>
+        <weighted-embedded-action uid="1ba5b11e-8b8c-4dd3-b2d4-ce6a1165b3f9"/>
+        <weighted-embedded-action uid="517362d5-260f-4112-bd27-abbbab7cfe18"/>
+        <weighted-embedded-action uid="1596c686-16a9-4ed7-8ad2-5bcae4d53247"/>
+        <weighted-embedded-action uid="9807274c-5260-4cde-8e56-f3c629f6c48c"/>
+        <weighted-embedded-action uid="bcb3d766-e3a3-4b2b-9153-1502d89cec67"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

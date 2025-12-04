@@ -1,0 +1,53 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/panoramaroute"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/50b13993-f50d-41b0-b076-6568d99bfa37.zip"
+    slaProfileEnabled="false" thinkTime="23088"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="50b13993-f50d-41b0-b076-6568d99bfa37">
+    <embedded-action>b37a3410-160e-42b8-b068-717bebd53c61</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_50b13993-f50d-41b0-b076-6568d99bfa37.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/panoramaroute" path="/panoramaroute"
+    postCharset="UTF-8" postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/50b13993-f50d-41b0-b076-6568d99bfa37.zip"
+    recordedResponseCode="200" responseSize="76"
+    serverUid="ap-southeast-1.prod.pr.panorama.console.api.aws"
+    slaProfileEnabled="false" uid="b37a3410-160e-42b8-b068-717bebd53c61" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_b37a3410-160e-42b8-b068-717bebd53c61</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_b37a3410-160e-42b8-b068-717bebd53c61.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ap-southeast-1.console.aws.amazon.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ap-southeast-1.console.aws.amazon.com"/>
+    <header name="panorama-appentity" value="aws-console"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Microsoft Edge&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json; charset=UTF-8"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Aug 2025 09:14:22 GMT&#xd;
+content-type: application/json&#xd;
+content-length: 76&#xd;
+x-amzn-requestid: 6ac96eda-1c49-4182-9144-05c15c6fbdea&#xd;
+access-control-allow-origin: https://ap-southeast-1.console.aws.amazon.com&#xd;
+access-control-allow-headers: Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,x-amzn-waf-bot-category,Panorama-Appentity&#xd;
+x-amz-apigw-id: Ps01YEvDyQ0ETcg=&#xd;
+access-control-allow-methods: GET,OPTIONS,POST&#xd;
+x-amzn-trace-id: Root=1-68a834ee-4ac9620e6f348a124d4e9b4a;Parent=38675eacc8b93615;Sampled=0;Lineage=1:669ac915:0&#xd;
+server-timing: cfReqDur;dur=153.589&#xd;
+cf-team: 2972a7dcf50000c17926318400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"browserColorDepth":"24","browserCookies":"","browserLanguage":"en","deviceResolutionWidth":"1366","deviceResolutionHeight":"768","deviceTimeZone":"-330","domain":"Prod","modality":"web","tabId":"d9ad6867-57a1-4d18-bd37-61f32b44a53e","version":"2.8.211","appEntity":"aws-console","awsUserInfo":"%7B%22arn%22:%22arn:aws:sts::866450244392:assumed-role/AWSReservedSSO_cr_sla-2-003_m-dcp-app_454df77a26709502/AbhinandanSk@techpass.gov.sg%22,%22alias%22:%22gcci-agency-sla-dcp-mgmt-prd-866450244392%22,%22username%22:%22assumed-role%252FAWSReservedSSO_cr_sla-2-003_m-dcp-app_454df77a26709502%252FAbhinandanSk%2540techpass.gov.sg%22,%22keybase%22:%22OQoNt30RagBml/l/Vv4WV3rSLtB11Lq/DxKbZTr2UoA%5Cu003d%22,%22issuer%22:%22https://gccsso.awsapps.com/start/#/console?account_id%5Cu003d866450244392%5Cu0026role_name%5Cu003dcr_sla-2-003_m-dcp-app%5Cu0026destination%5Cu003dhttps%253A%252F%252Fconsole.aws.amazon.com%22,%22signinType%22:%22PUBLIC%22%7D","awsUserInfoSigned":"eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJhcC1zb3V0aGVhc3QtMSIsImFsZyI6IkVTMzg0Iiwia2lkIjoiNTBkZDJhYmUtNjM4Yi00YTViLThlYTctMWIzNGEyMzBjZGYxIn0.eyJzdWIiOiJnY2NpLWFnZW5jeS1zbGEtZGNwLW1nbXQtcHJkLTg2NjQ1MDI0NDM5MiIsInNpZ25pblR5cGUiOiJQVUJMSUMiLCJpc3MiOiJodHRwczpcL1wvZ2Njc3NvLmF3c2FwcHMuY29tXC9zdGFydFwvI1wvY29uc29sZT9hY2NvdW50X2lkPTg2NjQ1MDI0NDM5MiZyb2xlX25hbWU9Y3Jfc2xhLTItMDAzX20tZGNwLWFwcCZkZXN0aW5hdGlvbj1odHRwcyUzQSUyRiUyRmNvbnNvbGUuYXdzLmFtYXpvbi5jb20iLCJrZXliYXNlIjoiT1FvTnQzMFJhZ0JtbFwvbFwvVnY0V1YzclNMdEIxMUxxXC9EeEtiWlRyMlVvQT0iLCJhcm4iOiJhcm46YXdzOnN0czo6ODY2NDUwMjQ0MzkyOmFzc3VtZWQtcm9sZVwvQVdTUmVzZXJ2ZWRTU09fY3Jfc2xhLTItMDAzX20tZGNwLWFwcF80NTRkZjc3YTI2NzA5NTAyXC9BYmhpbmFuZGFuU2tAdGVjaHBhc3MuZ292LnNnIiwidXNlcm5hbWUiOiJhc3N1bWVkLXJvbGUlMkZBV1NSZXNlcnZlZFNTT19jcl9zbGEtMi0wMDNfbS1kY3AtYXBwXzQ1NGRmNzdhMjY3MDk1MDIlMkZBYmhpbmFuZGFuU2slNDB0ZWNocGFzcy5nb3Yuc2cifQ.le2isONW_NGVnDmdS9wsVKeVwucOmxv6eQhSVAUxlDU8dWFBNY847WnUQPUA6SSHh2NUzhmGZ09Yx0BZTIVUStmp_-LGMtuLvCIw160vXbFGXfMp4V5oA4h-TQFEs_Gs","awsIdentityToken":"eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJhcC1zb3V0aGVhc3QtMSIsImFsZyI6IkVTMzg0Iiwia2lkIjoiNTBkZDJhYmUtNjM4Yi00YTViLThlYTctMWIzNGEyMzBjZGYxIn0.eyJzdWIiOiJnY2NpLWFnZW5jeS1zbGEtZGNwLW1nbXQtcHJkLTg2NjQ1MDI0NDM5MiIsInNpZ25pblR5cGUiOiJQVUJMSUMiLCJpc3MiOiJodHRwczpcL1wvZ2Njc3NvLmF3c2FwcHMuY29tXC9zdGFydFwvI1wvY29uc29sZT9hY2NvdW50X2lkPTg2NjQ1MDI0NDM5MiZyb2xlX25hbWU9Y3Jfc2xhLTItMDAzX20tZGNwLWFwcCZkZXN0aW5hdGlvbj1odHRwcyUzQSUyRiUyRmNvbnNvbGUuYXdzLmFtYXpvbi5jb20iLCJrZXliYXNlIjoiT1FvTnQzMFJhZ0JtbFwvbFwvVnY0V1YzclNMdEIxMUxxXC9EeEtiWlRyMlVvQT0iLCJhcm4iOiJhcm46YXdzOnN0czo6ODY2NDUwMjQ0MzkyOmFzc3VtZWQtcm9sZVwvQVdTUmVzZXJ2ZWRTU09fY3Jfc2xhLTItMDAzX20tZGNwLWFwcF80NTRkZjc3YTI2NzA5NTAyXC9BYmhpbmFuZGFuU2tAdGVjaHBhc3MuZ292LnNnIiwidXNlcm5hbWUiOiJhc3N1bWVkLXJvbGUlMkZBV1NSZXNlcnZlZFNTT19jcl9zbGEtMi0wMDNfbS1kY3AtYXBwXzQ1NGRmNzdhMjY3MDk1MDIlMkZBYmhpbmFuZGFuU2slNDB0ZWNocGFzcy5nb3Yuc2cifQ.le2isONW_NGVnDmdS9wsVKeVwucOmxv6eQhSVAUxlDU8dWFBNY847WnUQPUA6SSHh2NUzhmGZ09Yx0BZTIVUStmp_-LGMtuLvCIw160vXbFGXfMp4V5oA4h-TQFEs_Gs","batchRequest":[{"eventSource":"clog","eventName":"ajaxStatus200","eventContext":"{\"unit\":\"ms\",\"clogServiceId\":\"systems-manager\"}","eventDetail":"","eventValue":"159","eventType":"clogNotThrottled","timestamp":"1755854002945","requestId":"ba2e012f-077e-4ec8-b623-5635cc372a50","consoleRegion":"ap-southeast-1","service":"systems-manager","version":"2.8.211","tabId":"d9ad6867-57a1-4d18-bd37-61f32b44a53e","modality":"web","deviceTimeZone":"-330","browserLanguage":"en","deviceResolutionWidth":"1366","deviceResolutionHeight":"768","browserColorDepth":"24","domain":"Prod","browserCookies":"","serviceSubSection":"fleet-manager","serviceConsolePage":"remote-desktop","browserViewPortWidth":"1358","browserViewPortHeight":"608","referrer":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1#","requestUri":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","pageUrlPath":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR"},{"eventSource":"clog","eventName":"ajaxStatus200","eventContext":"{\"unit\":\"ms\",\"clogServiceId\":\"systems-manager\"}","eventDetail":"","eventValue":"161","eventType":"clogNotThrottled","timestamp":"1755854002947","requestId":"a19fd89c-1b61-4908-b64d-d35c6f91862f","consoleRegion":"ap-southeast-1","service":"systems-manager","version":"2.8.211","tabId":"d9ad6867-57a1-4d18-bd37-61f32b44a53e","modality":"web","deviceTimeZone":"-330","browserLanguage":"en","deviceResolutionWidth":"1366","deviceResolutionHeight":"768","browserColorDepth":"24","domain":"Prod","browserCookies":"","serviceSubSection":"fleet-manager","serviceConsolePage":"remote-desktop","browserViewPortWidth":"1358","browserViewPortHeight":"608","referrer":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1#","requestUri":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","pageUrlPath":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR"}],"batchRequestId":"c7fca6a1-a644-4cfa-95e4-8c937c332317","consoleRegion":"ap-southeast-1","consoleService":"systems-manager","visitorInfo":"{\"pid\":\"33082706-aba7-4a42-91f7-b1c06c590222\",\"pvd\":\"aws.amazon.com\"}","clogCapturedUserInfo":"%7B%22arn%22:%22arn:aws:sts::866450244392:assumed-role/AWSReservedSSO_cr_sla-2-003_m-dcp-app_454df77a26709502/AbhinandanSk@techpass.gov.sg%22,%22alias%22:%22gcci-agency-sla-dcp-mgmt-prd-866450244392%22,%22username%22:%22assumed-role%252FAWSReservedSSO_cr_sla-2-003_m-dcp-app_454df77a26709502%252FAbhinandanSk%2540techpass.gov.sg%22,%22keybase%22:%22OQoNt30RagBml/l/Vv4WV3rSLtB11Lq/DxKbZTr2UoA%5Cu003d%22,%22issuer%22:%22https://gccsso.awsapps.com/start/#/console?account_id%5Cu003d866450244392%5Cu0026role_name%5Cu003dcr_sla-2-003_m-dcp-app%5Cu0026destination%5Cu003dhttps%253A%252F%252Fconsole.aws.amazon.com%22,%22signinType%22:%22PUBLIC%22%7D"}]]></textPostContent>
+</http-action>

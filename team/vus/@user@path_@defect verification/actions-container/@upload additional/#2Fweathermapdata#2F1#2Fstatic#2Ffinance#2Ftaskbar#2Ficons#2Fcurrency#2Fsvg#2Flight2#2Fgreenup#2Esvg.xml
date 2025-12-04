@@ -1,0 +1,64 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/weathermapdata/1/static/finance/taskbar/icons/currency/svg/light2/greenup.svg"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_@defect verification/%resources%/recorded-artifacts/2e2f138d-1eb8-400d-99c4-fa46a3578e7b.zip"
+    slaProfileEnabled="false" thinkTime="7462"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2e2f138d-1eb8-400d-99c4-fa46a3578e7b">
+    <embedded-action>9f22a041-bd3b-49da-9c92-2471f6d5860a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_2e2f138d-1eb8-400d-99c4-fa46a3578e7b.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="image/svg+xml"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/weathermapdata/1/static/finance/taskbar/icons/currency/svg/light2/greenup.svg"
+    path="/weathermapdata/1/static/finance/taskbar/icons/currency/svg/light2/greenup.svg"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_@defect verification/%resources%/recorded-artifacts/2e2f138d-1eb8-400d-99c4-fa46a3578e7b.zip"
+    recordedResponseCode="200" responseSize="7109"
+    serverUid="assets.msn.com" slaProfileEnabled="false"
+    uid="9f22a041-bd3b-49da-9c92-2471f6d5860a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9f22a041-bd3b-49da-9c92-2471f6d5860a.xml</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9f22a041-bd3b-49da-9c92-2471f6d5860a.txt</requestContentFileDescription>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate"/>
+    <header name="Accept-Language" value="en-IN"/>
+    <header name="Connection" value="Keep-Alive"/>
+    <header name="Host" value="assets.msn.com"/>
+    <header name="UA-CPU" value="AMD64"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; rv:11.0) like Gecko"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Content-Type: image/svg+xml&#xd;
+Content-MD5: jmiBwFGSSFSPFdgIzgiYUQ==&#xd;
+Last-Modified: Wed, 03 Jul 2024 01:02:24 GMT&#xd;
+ETag: 0x8DC9AFBCCD873D4&#xd;
+Server: Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0&#xd;
+x-ms-request-id: 6bf07a55-701e-005f-70c6-4a37b2000000&#xd;
+x-ms-version: 2009-09-19&#xd;
+x-ms-lease-status: unlocked&#xd;
+x-ms-blob-type: BlockBlob&#xd;
+Access-Control-Expose-Headers: x-ms-request-id,Server,x-ms-version,Content-Type,Last-Modified,ETag,Content-MD5,x-ms-lease-status,x-ms-blob-type,Content-Length,Date,Transfer-Encoding&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Content-Encoding: gzip&#xd;
+Content-Length: 1911&#xd;
+Expires: Fri, 12 Sep 2025 04:33:48 GMT&#xd;
+Date: Fri, 22 Aug 2025 10:07:41 GMT&#xd;
+Connection: keep-alive&#xd;
+Alt-Svc: h3=":443"; ma=93600&#xd;
+Akamai-Request-BC: [a=69.192.1.181,b=1139131220,c=g,n=IN_KA_BANGALORE,o=20940]&#xd;
+Server-Timing: clientrtt; dur=37, clienttt; dur=1, origin; dur=0, cdntime; dur=1, wpo;dur=0,1s;dur=0&#xd;
+Server-Timing: cfReqDur;dur=92.886&#xd;
+Akamai-Cache-Status: Hit from child&#xd;
+Akamai-Server-IP: 69.192.1.181&#xd;
+Akamai-Request-ID: 43e5c354&#xd;
+Cache-Control: public, max-age=2592000&#xd;
+Timing-Allow-Origin: *&#xd;
+Akamai-GRN: 0.b501c045.1755857261.43e5c354&#xd;
+Vary: Origin&#xd;
+Cf-Team: 2972d8aa740000c179554f0400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

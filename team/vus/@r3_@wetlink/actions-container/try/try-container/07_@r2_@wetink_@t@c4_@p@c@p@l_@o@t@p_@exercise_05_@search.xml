@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_05_Search" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="18504058-215d-478e-bf12-04e5fd66ca9f" weightsEnabled="false">
+    <weighted-embedded-action uid="977a2625-25db-4c0d-8f00-acd13b98c89b"/>
+    <weighted-embedded-action uid="e0ceecfc-a0f7-4b22-b9ea-7fdfcbc8c4fa"/>
+</basic-logical-action-container>

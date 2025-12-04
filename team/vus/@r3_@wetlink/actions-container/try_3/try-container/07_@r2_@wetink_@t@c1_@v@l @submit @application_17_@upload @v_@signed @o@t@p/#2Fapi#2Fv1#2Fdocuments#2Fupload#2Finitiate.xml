@@ -1,0 +1,155 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/documents/upload/initiate"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/9612430b-35d5-4662-9f4e-d76fcfa7d1e9.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9612430b-35d5-4662-9f4e-d76fcfa7d1e9">
+    <embedded-action>61b13dab-40da-4b1f-b5e5-bca2fcf0f870</embedded-action>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/v1/documents/upload/initiate"
+    path="/api/v1/documents/upload/initiate" postType="4"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/9612430b-35d5-4662-9f4e-d76fcfa7d1e9.zip"
+    recordedResponseCode="200" responseSize="2032"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="61b13dab-40da-4b1f-b5e5-bca2fcf0f870" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_514d647b-b638-466e-a4f4-8cdcd4a81460</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_514d647b-b638-466e-a4f4-8cdcd4a81460.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple=".pdf" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_URLID"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="sst-s3-sla-dcp-uatez-docs-scan-stg-01\.s3\.ap-southeast-1\.amazonaws\.com/(.*?)\.pdf"
+        regExpAdv="" setDefaultValue="true"
+        startsWithSimple="sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com/"
+        template="$1$" templateAdv="$1$"
+        uid="e7166fc2-410d-44ef-a0fa-e4be08ed6bf6" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&amp;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Security-Toke"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="X-Amz-Security-Token=(.*?)&amp;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="X-Amz-Security-Token="
+        template="$1$" templateAdv="$1$"
+        uid="046431bd-b91f-4ad7-b963-5e5ea2130973" valueEncoded="true"
+        valueUrlEncoded="true" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_X-Amz-Signature"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="X-Amz-Signature=(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="X-Amz-Signature="
+        template="$1$" templateAdv="$1$"
+        uid="0a474eb9-bf3c-4da8-834b-609e215b9071" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&amp;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_X-Amz-Credential"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="X-Amz-Credential=(.*?)&amp;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="X-Amz-Credential="
+        template="$1$" templateAdv="$1$"
+        uid="c3ea755a-17cf-4c2d-b994-7d901fe0b980" valueEncoded="true"
+        valueUrlEncoded="true" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&amp;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_X-Amz-Date"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="X-Amz-Date=(.*?)&amp;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="X-Amz-Date="
+        template="$1$" templateAdv="$1$"
+        uid="c14127da-e561-4490-991d-bf8c91d56d35" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&amp;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_X-Amz-Algorithm"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="X-Amz-Algorithm=(.*?)&amp;" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="X-Amz-Algorithm="
+        template="$1$" templateAdv="$1$"
+        uid="0fe48692-a739-4d73-a981-851412d3d95a" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_documentId"
+        refererUid="01d53350-77c4-48f9-a5c8-7eb45b5e5e7e"
+        regExp="&quot;documentId&quot;:&quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;documentId&quot;:&quot;" template="$1$"
+        templateAdv="$1$" uid="6a92d445-ef49-4847-acb5-1cc2c8bde44b" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Authorization" value="Bearer ${C_token7}"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json"/>
+    <header name="Host" value="uat-dcp.sla.gov.sg"/>
+    <header name="Origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/WetInkOtpSigned"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="same-origin"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 &#xd;
+Content-Type: application/json&#xd;
+Transfer-Encoding: chunked&#xd;
+Connection: keep-alive&#xd;
+Date: Thu, 05 Jun 2025 05:00:06 GMT&#xd;
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains&#xd;
+X-Frame-Options: DENY&#xd;
+Vary: Origin&#xd;
+Vary: Access-Control-Request-Method&#xd;
+Vary: Access-Control-Request-Headers&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-XSS-Protection: 0&#xd;
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+Pragma: no-cache&#xd;
+Expires: 0&#xd;
+X-Cache: Miss from cloudfront&#xd;
+Via: 1.1 aa27a00d18f5fd7fe6d6c8f067b321d6.cloudfront.net (CloudFront)&#xd;
+X-Amz-Cf-Pop: SIN2-P4&#xd;
+X-Amz-Cf-Id: mJAH83bS-f2yO4mVHE4NC1Vl5h1STHX8ZHCSBJYu8ir4m0pD0mgvKQ==</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"documentTypeCode":"5400a6f3-be0e-4710-8c62-c561e1468025","fileName":"3-mb-sample-pdf-file.pdf","documentId":""}]]></textPostContent>
+</http-action>

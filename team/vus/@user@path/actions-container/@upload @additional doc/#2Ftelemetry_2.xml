@@ -1,0 +1,57 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/telemetry_2"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/134e74f1-22a2-43d5-99e8-089fc5a81526.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="134e74f1-22a2-43d5-99e8-089fc5a81526">
+    <embedded-action>32398372-22fc-4745-a0f9-cd08dd09e7c5</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_134e74f1-22a2-43d5-99e8-089fc5a81526.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/telemetry" path="/telemetry"
+    postCharset="ISO-8859-1" postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/134e74f1-22a2-43d5-99e8-089fc5a81526.zip"
+    recordedResponseCode="200" responseSize="2"
+    serverUid="cell-0.ap-southeast-1.prod.telemetry.console.api.aws"
+    slaProfileEnabled="false" uid="32398372-22fc-4745-a0f9-cd08dd09e7c5" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_32398372-22fc-4745-a0f9-cd08dd09e7c5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_32398372-22fc-4745-a0f9-cd08dd09e7c5.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ap-southeast-1.console.aws.amazon.com/"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="x-publish-type" value="scheduled"/>
+    <header name="origin" value="https://ap-southeast-1.console.aws.amazon.com"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="*/*"/>
+    <header name="authorization" value="Bearer eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJhcC1zb3V0aGVhc3QtMSIsImFsZyI6IkVTMzg0Iiwia2lkIjoiNTBkZDJhYmUtNjM4Yi00YTViLThlYTctMWIzNGEyMzBjZGYxIn0.eyJzdWIiOiJnY2NpLWFnZW5jeS1zbGEtZGNwLW1nbXQtcHJkLTg2NjQ1MDI0NDM5MiIsInNpZ25pblR5cGUiOiJQVUJMSUMiLCJpc3MiOiJodHRwczpcL1wvZ2Njc3NvLmF3c2FwcHMuY29tXC9zdGFydFwvI1wvY29uc29sZT9hY2NvdW50X2lkPTg2NjQ1MDI0NDM5MiZyb2xlX25hbWU9Y3Jfc2xhLTItMDAzX20tZGNwLWFwcCZkZXN0aW5hdGlvbj1odHRwcyUzQSUyRiUyRmNvbnNvbGUuYXdzLmFtYXpvbi5jb20iLCJrZXliYXNlIjoiT1FvTnQzMFJhZ0JtbFwvbFwvVnY0V1YzclNMdEIxMUxxXC9EeEtiWlRyMlVvQT0iLCJhcm4iOiJhcm46YXdzOnN0czo6ODY2NDUwMjQ0MzkyOmFzc3VtZWQtcm9sZVwvQVdTUmVzZXJ2ZWRTU09fY3Jfc2xhLTItMDAzX20tZGNwLWFwcF80NTRkZjc3YTI2NzA5NTAyXC9BYmhpbmFuZGFuU2tAdGVjaHBhc3MuZ292LnNnIiwidXNlcm5hbWUiOiJhc3N1bWVkLXJvbGUlMkZBV1NSZXNlcnZlZFNTT19jcl9zbGEtMi0wMDNfbS1kY3AtYXBwXzQ1NGRmNzdhMjY3MDk1MDIlMkZBYmhpbmFuZGFuU2slNDB0ZWNocGFzcy5nb3Yuc2cifQ.le2isONW_NGVnDmdS9wsVKeVwucOmxv6eQhSVAUxlDU8dWFBNY847WnUQPUA6SSHh2NUzhmGZ09Yx0BZTIVUStmp_-LGMtuLvCIw160vXbFGXfMp4V5oA4h-TQFEs_Gs"/>
+    <header name="x-retries" value="0"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Microsoft Edge&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="x-remaining-events" value="0"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Aug 2025 09:13:22 GMT&#xd;
+content-type: application/json&#xd;
+content-length: 2&#xd;
+x-amzn-requestid: de55f176-2185-4e9d-bb4f-aa7653e598b4&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-headers: Content-Type,Authorization,X-Retries,X-Remaining-Events,X-Publish-Type&#xd;
+x-amz-apigw-id: Ps0sBHFWSQ0ENww=&#xd;
+access-control-allow-methods: OPTIONS,POST&#xd;
+x-amzn-trace-id: Root=1-68a834b2-3ef2151579f73c1c7dcacad8&#xd;
+access-control-max-age: 86400&#xd;
+server-timing: cfReqDur;dur=69.876&#xd;
+cf-team: 2972a6f2af0000c1792518f400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"events":[{"type":"resource-metric","content":{},"tokenRefs":[0],"retries":0,"timestamp":"2025-08-22T09:13:05.387Z","version":"1.0.114995.0#19189af5","callerCategory":"customer","location":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","requestId":"eafce5b02a43ed5f55bae44b32d73a1f","resourceMetric":{"url":"https://ap-southeast-1.console.aws.amazon.com/api/prod/browserCreds","startTime":2965173,"duration":483.2000000476837,"initiatorType":"xmlhttprequest","nextHopProtocol":"h2","fetchStart":2965173,"domainLookupStart":2965173,"domainLookupEnd":2965173,"connectStart":2965173,"connectEnd":2965173,"requestStart":2965389.9000000954,"responseStart":2965654.5,"responseEnd":2965656.2000000477,"transferSize":1821,"encodedBodySize":1521,"decodedBodySize":1521},"subSection":"fleet-manager","page":"remote-desktop"},{"type":"resource-metric","content":{},"tokenRefs":[0],"retries":0,"timestamp":"2025-08-22T09:13:05.387Z","version":"1.0.114995.0#19189af5","callerCategory":"customer","location":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","requestId":"eafce5b02a43ed5f55bae44b32d73a1f","resourceMetric":{"url":"https://ap-southeast-1.console.aws.amazon.com/api/prod/browserCreds","startTime":2965184.7999999523,"duration":449.90000009536743,"initiatorType":"xmlhttprequest","nextHopProtocol":"h2","fetchStart":2965184.7999999523,"domainLookupStart":2965184.7999999523,"domainLookupEnd":2965184.7999999523,"connectStart":2965184.7999999523,"connectEnd":2965184.7999999523,"requestStart":2965390.2000000477,"responseStart":2965632.9000000954,"responseEnd":2965634.7000000477,"transferSize":1813,"encodedBodySize":1513,"decodedBodySize":1513},"subSection":"fleet-manager","page":"remote-desktop"},{"type":"resource-metric","content":{},"tokenRefs":[0],"retries":0,"timestamp":"2025-08-22T09:13:05.387Z","version":"1.0.114995.0#19189af5","callerCategory":"customer","location":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","requestId":"eafce5b02a43ed5f55bae44b32d73a1f","resourceMetric":{"url":"https://ap-southeast-1.console.aws.amazon.com/api/prod/browserCreds","startTime":2965186.7999999523,"duration":449.5,"initiatorType":"xmlhttprequest","nextHopProtocol":"h2","fetchStart":2965186.7999999523,"domainLookupStart":2965186.7999999523,"domainLookupEnd":2965186.7999999523,"connectStart":2965186.7999999523,"connectEnd":2965186.7999999523,"requestStart":2965390,"responseStart":2965635.100000143,"responseEnd":2965636.2999999523,"transferSize":1821,"encodedBodySize":1521,"decodedBodySize":1521},"subSection":"fleet-manager","page":"remote-desktop"},{"type":"resource-metric","content":{},"tokenRefs":[0],"retries":0,"timestamp":"2025-08-22T09:13:05.387Z","version":"1.0.114995.0#19189af5","callerCategory":"customer","location":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","requestId":"eafce5b02a43ed5f55bae44b32d73a1f","resourceMetric":{"url":"https://ap-southeast-1.console.aws.amazon.com/api/prod/browserCreds","startTime":2965188.9000000954,"duration":490.2999999523163,"initiatorType":"xmlhttprequest","nextHopProtocol":"h2","fetchStart":2965188.9000000954,"domainLookupStart":2965188.9000000954,"domainLookupEnd":2965188.9000000954,"connectStart":2965188.9000000954,"connectEnd":2965188.9000000954,"requestStart":2965390.2999999523,"responseStart":2965678.100000143,"responseEnd":2965679.2000000477,"transferSize":1813,"encodedBodySize":1513,"decodedBodySize":1513},"subSection":"fleet-manager","page":"remote-desktop"},{"type":"resource-metric","content":{},"tokenRefs":[0],"retries":0,"timestamp":"2025-08-22T09:13:05.387Z","version":"1.0.114995.0#19189af5","callerCategory":"customer","location":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","requestId":"eafce5b02a43ed5f55bae44b32d73a1f","resourceMetric":{"url":"https://ap-southeast-1.console.aws.amazon.com/api/prod/browserCreds","startTime":2965192,"duration":468,"initiatorType":"xmlhttprequest","nextHopProtocol":"h2","fetchStart":2965192,"domainLookupStart":2965192,"domainLookupEnd":2965192,"connectStart":2965192,"connectEnd":2965192,"requestStart":2965390.2000000477,"responseStart":2965659.2000000477,"responseEnd":2965660,"transferSize":1829,"encodedBodySize":1529,"decodedBodySize":1529},"subSection":"fleet-manager","page":"remote-desktop"},{"type":"resource-metric","content":{},"tokenRefs":[0],"retries":0,"timestamp":"2025-08-22T09:13:05.387Z","version":"1.0.114995.0#19189af5","callerCategory":"customer","location":"https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&region=ap-southeast-1&authType=KEY_PAIR","requestId":"eafce5b02a43ed5f55bae44b32d73a1f","resourceMetric":{"url":"https://ap-southeast-1.console.aws.amazon.com/api/prod/browserCreds","startTime":2965192.9000000954,"duration":486.89999985694885,"initiatorType":"xmlhttprequest","nextHopProtocol":"h2","fetchStart":2965192.9000000954,"domainLookupStart":2965192.9000000954,"domainLookupEnd":2965192.9000000954,"connectStart":2965192.9000000954,"connectEnd":2965192.9000000954,"requestStart":2965390.2999999523,"responseStart":2965678.2000000477,"responseEnd":2965679.7999999523,"transferSize":1825,"encodedBodySize":1525,"decodedBodySize":1525},"subSection":"fleet-manager","page":"remote-desktop"}],"tokens":["v1/3b315b99709b7710e1c5a188f38dce27221172d34ffde6f9efca9ca929499fe3"]}]]></textPostContent>
+</http-action>

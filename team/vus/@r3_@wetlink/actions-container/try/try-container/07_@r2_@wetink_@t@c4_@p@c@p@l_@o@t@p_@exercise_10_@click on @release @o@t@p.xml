@@ -1,0 +1,13 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_10_Click on Release OTP"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="e4227adb-556e-45ab-802e-1732626cdff7" weightsEnabled="false">
+    <weighted-embedded-action uid="d6a149d1-2bf9-405c-a184-52e5d1a24150"/>
+    <weighted-embedded-action uid="e178bdc3-42b4-4c30-a032-691286239f27"/>
+    <weighted-embedded-action uid="7bbdf5ca-3533-45d0-8c62-61e813749b85"/>
+    <weighted-embedded-action uid="709dab0e-6a81-4bce-b253-2813371ac7e4"/>
+    <weighted-embedded-action uid="32639f65-b5d1-48a3-bf61-c6a2f1b968e8"/>
+    <weighted-embedded-action uid="c043251e-f3c6-4492-a8fd-a1944c6e838d"/>
+    <weighted-embedded-action uid="e0f2bde7-9f13-4074-8a70-f8884a624886"/>
+</basic-logical-action-container>

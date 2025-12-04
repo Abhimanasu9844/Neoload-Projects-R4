@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/prod/browserCreds_7" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/9c6d374d-47f1-471a-a8c4-d42c07dec8fc.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9c6d374d-47f1-471a-a8c4-d42c07dec8fc">
+    <embedded-action>abfc8dcb-ca2d-41d7-9ba3-aa78eac1ef75</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9c6d374d-47f1-471a-a8c4-d42c07dec8fc.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/prod/browserCreds"
+    path="/api/prod/browserCreds" postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/9c6d374d-47f1-471a-a8c4-d42c07dec8fc.zip"
+    recordedResponseCode="200" responseSize="1529"
+    serverUid="ap-southeast-1.console.aws.amazon.com"
+    slaProfileEnabled="false" uid="abfc8dcb-ca2d-41d7-9ba3-aa78eac1ef75" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_abfc8dcb-ca2d-41d7-9ba3-aa78eac1ef75</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_abfc8dcb-ca2d-41d7-9ba3-aa78eac1ef75.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://ap-southeast-1.console.aws.amazon.com/systems-manager/fleet-manager/remote-desktop?nodeIds=i-06d6650ced5373fd9&amp;region=ap-southeast-1&amp;authType=KEY_PAIR"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="cookie" value="aws-creds=%7B%22iv%22%3A%22Qd3OBVYISqaSp0yb%22%2C%22message%22%3A%221U%2BSM8OEaWIWM23GSfxhRsW%2BDZpnlPpjhxdWL98dzlyJ6umVgJpnAYHvQEyC%2F24MV9qFuqwa7x8ZO%2FfxgtOzgHXCIqlsdM9Sva1KJAUppapVGK6wQbhosaTFpRyLmOSBgeSKNbFC5q5XkmNMpxUBVXRc165wX6N59LKHlUFLdB0LnNXfF02DvQQsym%2F3wpFdczRTXBuj%2FDF1Wy9md%2BMuT5U74w8tt5M0%2BFdObCmKBj8NagTLRiT5ap0%2B%2F4wZPdDZiaK3SblCLiSvhkYQUhSoKkhfsEdycw5gk1TadJiFF6p66FnzBUbP5xkz4gANPqC77FwSDga66rv8RQm229D8%2ByyftyEbf7c3PQLHt4UjHOJ0%2FWRHPQOSIaNRokxxBGrn8GiReVttMQyT8QQw34Bcd6MkwYxkls%2FqR99NP%2FhmmF4lRNd%2FQ%2FtMAxzhL8Q3%2F679q3CY5vJctJTbECpHB%2BJnffbO713Cs93LCc4BuOClSYBl48LdyukEefvucv8VT1J3IwUt81BJY9ygVtHAn2xAQ1tmVfpqQ2fcaPSldtyNeYyyyuzvHTw%2FhrZSY7PvvOJfeF8CE3PaYgFqKjBo%2BBHCnZ9EhWeCjfYd3t1LsirX%2FUESx0T4e4QnmSRl1u50PkoLso%2BpYh4c1HmUjs1Gbz6NGyq3mjKEl1kkYHRg2RQW%2FfaHREgVrvJaCkl9qYa0sWjGEZ3XLRlH%2BSzSMBOJnbiMH3YOtxSVvUKG6FIlvBjUR0zQlPgqE865MYSLbfosE%2FSyhaj9PmZC%2B62TQCPiCtIw0CGvSAoOHrpO%2BCr4WN%2Bg1n3RLDeNli%2BbJl1Pi9ejLyrMoqKe9qHR7dxPWbAANyMG1nVq4Gn7EwtPbKG%2B9A1me97ILA666tOBAG6RWyZObVmYMi4cQ6NyWOf%2Bo6ObN0nVlA9UU9AXFL7PfpSNzJiullJOakAQsujNIh2hte8Vf8QQeO%2BkSZqtNKyBqaEtDAKmWBeup7paXhivNMDWp07lmNjg6TtOBojYHPK6ZdYAA4cI4XuoONDJw%2FDzzDJ8nKAtho%2Bu2XBNUq%2BDUXCmMo8SiuGlb2ZuK9aelx68HHcPLKbeOZ4lX2rpTzq21ObkJ64oHkfgAR7xir8MqJQCUhxNfSvi8wkvVDtoKHbjh6dOIZJDNv%2B9oLnGi8KEMWJH3Zt9L%2BR8YI6vLwR4V7SLRtVj%2FXAJri1RiWaxgYmZ8dQLJxBnhp9ol4y6w%2FnWit5XBHUfwtd%2BpOfI9EsthZ0SisqvIgKkzXzmKxZly8TBRP7Qo021PNi%2BPILOUGrtE0t0jc%2FTC0uLrm9%2FoK0EuPy7Kunov1WIxTfzzbBQG%2BnObs0YsairLWFe%2BinrkGW1T4NqsS025x3ij%2Fjcj8xf%2FOjkK2l%2FU3mm%2B8mHpYt%2FZkIIrzv5gCTVbw7Z0I9AC%2Fdn%2FJ8IGpMDDuM1SP65aPwwjFtgg6InCgwQKAjJryMVcsNX3MNMSBqOqfvCIoMFlIXwmYSuVErtkFfxSIHjjC5VangY5%2B%2Fnh6XVAG49ghjfHA%2FKOXCVngIapnWvVtsP5WKfoTFutVaeAQAP9%2BU%2FhdBHWYFhwD%2FKmcpjb%2FfX8ND536%2BlFZ%2BqYmeG32nkLMZCrLG2UG8ICImgwq80YWf%2BckTQTYzZ4RGWlpKEnvwJk6FwJ5X2rUx8hWNo3hdiahqRKnwdCVIRxcvVB8oXmdbwpI7XQemk%2FoUq54KYmtBj6Vc4mMKR3WZJij4Omkh0O%2BviMlR7Y7y0vKKWBJ2iIe8fg%2Fz4s6PN9d2wH3%2BjmtomiKp6gxwH%2FwK9YSEcLNc1wlq7e1W9XwnjaJ8VMn%2FNOLOto4sp4%2FPkel4hZ%2Bwc9JUoROGu9uuHSqMjojWm%2FXr0gMZV0vavhpp7XDsX7BCFViNjJFrWxztjq4%2BUKd5%2FR1g%2BcXDa8nO6akAIaZ%2FnqGFGndyJeGD6BI8yaW2HpMjzWVL2fuGTLC2D%2FRrLw%2FdezJwkWYcj8LM94b9himxbCeNUHZe8aM14H7luV5iA9Oge%2FtdZqn8x9R95SIBwejRRB0iQhmgdk%2BeBEkk%2BWpupOJjkKUgSKY1NbkIVSUzUK8KX4aR7U%2Fw8Bd4E8YAPKdkY4Hri62Jb1BXFVXQ83njvKreAMvALu54%3D%22%2C%22keyVersion%22%3A%22euhzL.mredRPA9sPTrHFLmbMFmGbvClv%22%2C%22authTag%22%3A%22LjL9X%2B7o6B2sUq521q%2F8IA%3D%3D%22%2C%22version%22%3A1%7D; aws-ubid-main=240-7310557-5752732; aws-account-data=%7B%22marketplaceGroup%22%3A%22AWS%22%7D; awsc-color-theme=light; aws-vid=33082706-aba7-4a42-91f7-b1c06c590222; noflush_Region=ap-southeast-1; awsc-settings-info=866450244392%26default; noflush_awscnm=%7B%22consoleFlags%22%3A%5B%22F%22%2C%22G%22%2C%22J%22%2C%22L%22%2C%22Z%22%2C%22Y%22%2C%22X%22%5D%7D; toolsExperience={}; awsccc=eyJlIjoxLCJwIjoxLCJmIjoxLCJhIjoxLCJpIjoiNzkyZWNiZDQtNzQwMy00ZWFlLWFjNjItODhhNmQ0ZWFiOWM4IiwidiI6IjEifQ==; noflush_awsc_cct_config_version=uuXCHAVMRWSLks_mzNWxQsncVPNmTQ6-JhO0hVgxS9w; AMCVS_7742037254C95E840A4C98A6%40AdobeOrg=1; AMCV_7742037254C95E840A4C98A6%40AdobeOrg=1585540135%7CMCIDTS%7C20323%7CMCMID%7C76853331122540197400140162467846516235%7CMCAAMLH-1756449026%7C12%7CMCAAMB-1756449026%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1755851426s%7CNONE%7CvVersion%7C4.4.0; aws-prism-private-beta-allowlisted=true; aws-userInfo=%7B%22arn%22%3A%22arn%3Aaws%3Asts%3A%3A866450244392%3Aassumed-role%2FAWSReservedSSO_cr_sla-2-003_m-dcp-app_454df77a26709502%2FAbhinandanSk%40techpass.gov.sg%22%2C%22alias%22%3A%22gcci-agency-sla-dcp-mgmt-prd-866450244392%22%2C%22username%22%3A%22assumed-role%252FAWSReservedSSO_cr_sla-2-003_m-dcp-app_454df77a26709502%252FAbhinandanSk%2540techpass.gov.sg%22%2C%22keybase%22%3A%22OQoNt30RagBml%2Fl%2FVv4WV3rSLtB11Lq%2FDxKbZTr2UoA%5Cu003d%22%2C%22issuer%22%3A%22https%3A%2F%2Fgccsso.awsapps.com%2Fstart%2F%23%2Fconsole%3Faccount_id%5Cu003d866450244392%5Cu0026role_name%5Cu003dcr_sla-2-003_m-dcp-app%5Cu0026destination%5Cu003dhttps%253A%252F%252Fconsole.aws.amazon.com%22%2C%22signinType%22%3A%22PUBLIC%22%7D; aws-userInfo-signed=eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJhcC1zb3V0aGVhc3QtMSIsImFsZyI6IkVTMzg0Iiwia2lkIjoiNTBkZDJhYmUtNjM4Yi00YTViLThlYTctMWIzNGEyMzBjZGYxIn0.eyJzdWIiOiJnY2NpLWFnZW5jeS1zbGEtZGNwLW1nbXQtcHJkLTg2NjQ1MDI0NDM5MiIsInNpZ25pblR5cGUiOiJQVUJMSUMiLCJpc3MiOiJodHRwczpcL1wvZ2Njc3NvLmF3c2FwcHMuY29tXC9zdGFydFwvI1wvY29uc29sZT9hY2NvdW50X2lkPTg2NjQ1MDI0NDM5MiZyb2xlX25hbWU9Y3Jfc2xhLTItMDAzX20tZGNwLWFwcCZkZXN0aW5hdGlvbj1odHRwcyUzQSUyRiUyRmNvbnNvbGUuYXdzLmFtYXpvbi5jb20iLCJrZXliYXNlIjoiT1FvTnQzMFJhZ0JtbFwvbFwvVnY0V1YzclNMdEIxMUxxXC9EeEtiWlRyMlVvQT0iLCJhcm4iOiJhcm46YXdzOnN0czo6ODY2NDUwMjQ0MzkyOmFzc3VtZWQtcm9sZVwvQVdTUmVzZXJ2ZWRTU09fY3Jfc2xhLTItMDAzX20tZGNwLWFwcF80NTRkZjc3YTI2NzA5NTAyXC9BYmhpbmFuZGFuU2tAdGVjaHBhc3MuZ292LnNnIiwidXNlcm5hbWUiOiJhc3N1bWVkLXJvbGUlMkZBV1NSZXNlcnZlZFNTT19jcl9zbGEtMi0wMDNfbS1kY3AtYXBwXzQ1NGRmNzdhMjY3MDk1MDIlMkZBYmhpbmFuZGFuU2slNDB0ZWNocGFzcy5nb3Yuc2cifQ.le2isONW_NGVnDmdS9wsVKeVwucOmxv6eQhSVAUxlDU8dWFBNY847WnUQPUA6SSHh2NUzhmGZ09Yx0BZTIVUStmp_-LGMtuLvCIw160vXbFGXfMp4V5oA4h-TQFEs_Gs; noflush_awsccs_sid=2bdd79e55021851fb34fd6d713125ac367579cd910cb75868f6401d93696572a; aws-signer-token_ap-southeast-1=eyJrZXlWZXJzaW9uIjoiZXVoekwubXJlZFJQQTlzUFRySEZMbWJNRm1HYnZDbHYiLCJ2YWx1ZSI6IlZoTnNINmcrSUVJakYyZHlTcllJNFhReW95cThheVJFazJsdVpVZ0ZDYXc9IiwidmVyc2lvbiI6MX0=; last-sign-in-session=2bdd79e55021851fb34fd6d713125ac367579cd910cb75868f641d93696572a; awsc-rac=BAH30|BKK30|CGK30|CPT30|DXB30|HKG30|HYD30|KUL30|MEL30|MXP30|QRO30|TLV30|TPE30|YYC30|ZAZ30|ZRH30@1755851009196"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://ap-southeast-1.console.aws.amazon.com"/>
+    <header name="x-console-info" value="eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJhcC1zb3V0aGVhc3QtMSIsImFsZyI6IkVTMzg0Iiwia2lkIjoiNTBkZDJhYmUtNjM4Yi00YTViLThlYTctMWIzNGEyMzBjZGYxIn0.eyJhdF9oYXNoIjoieEpXNzMwM05oelFyVHl2RWRVb251S204aTJERzBsMGciLCJpc3MiOiJodHRwOlwvXC9zaWduaW4uYXdzLmFtYXpvbi5jb21cL3NpZ25pbiIsInN1YiI6ImFybjphd3M6c2lnbmluOjo6Y29uc29sZVwvZmxlZXRtYW5hZ2VyIn0.mu4T_OszXkedUo45W2YLFuXZJAIbQ1oMQrYwnooDSKyA2T6-ibpqgij_uVDDQy28b6pMtXgt91QDpwdyVadbmm5d8Gvmggaip-NJjcfy5Q3UaFcqq2oHnX2HT7p9FMZ6"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="x-web-client-version" value="2.13.0"/>
+    <header name="accept" value="*/*"/>
+    <header name="x-widget-id" value="notifications"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Microsoft Edge&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="x-console-api-token" value="eyJ0eXAiOiJKV1MiLCJrZXlSZWdpb24iOiJhcC1zb3V0aGVhc3QtMSIsImFsZyI6IkVTMzg0Iiwia2lkIjoiNTBkZDJhYmUtNjM4Yi00YTViLThlYTctMWIzNGEyMzBjZGYxIn0.eyJzdWIiOiJnY2NpLWFnZW5jeS1zbGEtZGNwLW1nbXQtcHJkLTg2NjQ1MDI0NDM5MiIsInNpZ25pblR5cGUiOiJQVUJMSUMiLCJpc3MiOiJodHRwczpcL1wvZ2Njc3NvLmF3c2FwcHMuY29tXC9zdGFydFwvI1wvY29uc29sZT9hY2NvdW50X2lkPTg2NjQ1MDI0NDM5MiZyb2xlX25hbWU9Y3Jfc2xhLTItMDAzX20tZGNwLWFwcCZkZXN0aW5hdGlvbj1odHRwcyUzQSUyRiUyRmNvbnNvbGUuYXdzLmFtYXpvbi5jb20iLCJrZXliYXNlIjoiT1FvTnQzMFJhZ0JtbFwvbFwvVnY0V1YzclNMdEIxMUxxXC9EeEtiWlRyMlVvQT0iLCJhcm4iOiJhcm46YXdzOnN0czo6ODY2NDUwMjQ0MzkyOmFzc3VtZWQtcm9sZVwvQVdTUmVzZXJ2ZWRTU09fY3Jfc2xhLTItMDAzX20tZGNwLWFwcF80NTRkZjc3YTI2NzA5NTAyXC9BYmhpbmFuZGFuU2tAdGVjaHBhc3MuZ292LnNnIiwidXNlcm5hbWUiOiJhc3N1bWVkLXJvbGUlMkZBV1NSZXNlcnZlZFNTT19jcl9zbGEtMi0wMDNfbS1kY3AtYXBwXzQ1NGRmNzdhMjY3MDk1MDIlMkZBYmhpbmFuZGFuU2slNDB0ZWNocGFzcy5nb3Yuc2cifQ.le2isONW_NGVnDmdS9wsVKeVwucOmxv6eQhSVAUxlDU8dWFBNY847WnUQPUA6SSHh2NUzhmGZ09Yx0BZTIVUStmp_-LGMtuLvCIw160vXbFGXfMp4V5oA4h-TQFEs_Gs"/>
+    <header name="x-widget-stage" value="prod"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 22 Aug 2025 09:13:05 GMT&#xd;
+content-type: application/json&#xd;
+content-length: 1529&#xd;
+server: Server&#xd;
+x-amzn-requestid: ec3792f7-8866-4133-8f69-96d0fcbdc63e&#xd;
+access-control-allow-origin: https://ap-southeast-1.console.aws.amazon.com&#xd;
+access-control-allow-headers: Content-Type,x-widget-id,x-widget-stage,x-console-api-token,x-console-info,x-web-client-version,x-session-token&#xd;
+x-amz-apigw-id: Ps0pQHeKyQ0EamA=&#xd;
+access-control-allow-methods: OPTIONS,POST,GET&#xd;
+access-control-expose-headers: x-amzn-remapped-x-amzn-requestid,x-amzn-requestid&#xd;
+x-amzn-trace-id: Root=1-68a834a1-024dc80e6dcba7a923d45a3c&#xd;
+access-control-allow-credentials: true&#xd;
+strict-transport-security: max-age=47304000; includeSubDomains; preload</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

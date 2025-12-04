@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC1_VL Submit Application_13_Add LawFirm"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="2c3ae2c1-ca51-4a49-844b-6b7dca1d6995" weightsEnabled="false">
+    <weighted-embedded-action uid="94e74acd-0a4d-4273-80f2-027cd4cf64f3"/>
+    <weighted-embedded-action uid="03292267-3bc0-490b-9524-3f901e04238c"/>
+</basic-logical-action-container>

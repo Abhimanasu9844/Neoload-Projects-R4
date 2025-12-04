@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select Purchases" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="63e5b0a8-12f5-43e9-a298-4492efac7395" weightsEnabled="false">
+    <weighted-embedded-action uid="7e409baa-5029-4fa5-b031-59979db98932"/>
+    <weighted-embedded-action uid="9dd0522e-58d5-41e2-9282-4539ea3d9af5"/>
+    <weighted-embedded-action uid="c4d0dded-c65b-4d24-bd82-c2ee75b8a72c"/>
+    <weighted-embedded-action uid="26eba2ed-4fd8-4a62-b048-dceae7d49cca"/>
+    <weighted-embedded-action uid="04a53049-bb96-4258-a333-432813cae744"/>
+    <weighted-embedded-action uid="497d170e-969a-46a8-bc85-3bd367d3854f"/>
+    <weighted-embedded-action uid="e1f6258c-9c57-4b16-9574-c5022d185d39"/>
+    <weighted-embedded-action uid="e21cb446-ad24-4522-b46d-128f910a82d5"/>
+    <weighted-embedded-action uid="ee208e4e-7fc7-4e20-8b30-569b601c9f60"/>
+    <weighted-embedded-action uid="5aae76c4-4df3-4092-8edb-84df79582dc7"/>
+</basic-logical-action-container>

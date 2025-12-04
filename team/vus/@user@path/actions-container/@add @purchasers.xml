@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add Purchasers" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="eafaaa03-e92b-4cc0-bc6b-a7e0f1450d74" weightsEnabled="false">
+    <weighted-embedded-action uid="daacc192-f0f4-4562-b772-75db0839239a"/>
+</basic-logical-action-container>

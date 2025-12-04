@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_07_Click on Save &amp; Next"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="a1856423-d37d-4857-8f40-fc3d4a96b6f3" weightsEnabled="false">
+    <weighted-embedded-action uid="e5d19bbe-1107-4bd7-96e6-ed554ba9e4b8"/>
+    <weighted-embedded-action uid="24e0d41d-64cc-4f7b-83fc-e9d8977aada9"/>
+    <weighted-embedded-action uid="45d96bc2-a8b9-442e-a783-cec97a90dcbe"/>
+    <weighted-embedded-action uid="4c10991c-6d75-4c6f-9a02-ccfb42009c27"/>
+    <weighted-embedded-action uid="abf2c058-7770-46c0-a88e-cda027d9dac3"/>
+    <weighted-embedded-action uid="3b3b15f7-4094-4fba-bc11-7acdab4e0157"/>
+    <weighted-embedded-action uid="f75135fd-761c-4a77-886b-3d60b4dd9d8f"/>
+    <weighted-embedded-action uid="d8ac6c2e-54fd-446f-81ab-214b20f86b7f"/>
+    <weighted-embedded-action uid="0e8b4219-fc2d-4d64-9991-489894de4dac"/>
+</basic-logical-action-container>

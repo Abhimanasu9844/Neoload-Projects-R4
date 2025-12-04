@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/users/8f228689-b7f3-4202-b06d-55d86eeb56a0"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c@t@m@v/%resources%/recorded-artifacts/32c5d886-78bf-4102-828b-77db38e4d184.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="32c5d886-78bf-4102-828b-77db38e4d184">
+    <embedded-action>37d81a52-9fb4-4977-a56a-d5e925c183a0</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_32c5d886-78bf-4102-828b-77db38e4d184.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/api/v1/users/8f228689-b7f3-4202-b06d-55d86eeb56a0"
+    path="/api/v1/users/8f228689-b7f3-4202-b06d-55d86eeb56a0"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@c@t@m@v/%resources%/recorded-artifacts/32c5d886-78bf-4102-828b-77db38e4d184.zip"
+    recordedResponseCode="200" responseSize="1072"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="37d81a52-9fb4-4977-a56a-d5e925c183a0" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_37d81a52-9fb4-4977-a56a-d5e925c183a0</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_37d81a52-9fb4-4977-a56a-d5e925c183a0.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="authorization" value="Bearer eyJraWQiOiJzaWctMjAyMy0wOC0xNVQwNjo0NzoxOFoiLCJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1YXQtZGNwLnNsYS5nb3Yuc2ciLCJzdWIiOiI4ZjIyODY4OS1iN2YzLTQyMDItYjA2ZC01NWQ4NmVlYjU2YTAiLCJyb2xlIjoiTU9QIiwibmFtZSI6IlA5OTk5MDAxVCIsInNlc3Npb25JZCI6IjAxOTkwZjA5LWM1YTYtNzRjNS1hNWE1LWNmODY2YmZjYjIxNSIsImV4cCI6MTc1NjkxNTUyM30.o-3leM5Mon0HmECWKZuU1xz2xew-hWBABfI37RW3g6HFzaMEAnM4Eval6TBDaOGxMxt6GGSmkifBVNQWsQdzAA"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/CreateTransactionNew"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Wed, 03 Sep 2025 10:06:13 GMT&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-dev-tm-fss-landing-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com; img-src 'self' data: api.qrserver.com&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 11d649b48d08841950335080f770eea8.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: DaU7U1_yVBvNP6HlA_s40eiai-Q8ntCTR5f6AO_a7S-rNm12bBcrfA==&#xd;
+server-timing: cfReqDur;dur=405.739&#xd;
+cf-team: 29b0a3a295000121f83d8b3400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

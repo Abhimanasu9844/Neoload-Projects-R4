@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" enabled="false"
+    execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_03_Login" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="bc0407a9-2d9e-4c15-82d3-b4554f098296" weightsEnabled="false">
+    <weighted-embedded-action uid="98aae8ce-0b69-451a-b50d-c8c564b6a598"/>
+</basic-logical-action-container>

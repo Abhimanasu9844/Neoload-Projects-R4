@@ -1,0 +1,15 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Enter OTP details" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="3b1b2b37-c772-4b74-a62f-0e24c6aaefa8" weightsEnabled="false">
+    <weighted-embedded-action uid="75f162a4-3c12-4f42-b95a-c87e63ec690f"/>
+    <weighted-embedded-action uid="9c6d374d-47f1-471a-a8c4-d42c07dec8fc"/>
+    <weighted-embedded-action uid="0c0e5a9e-6416-4d43-9e53-b3e3f6666419"/>
+    <weighted-embedded-action uid="494fb2ea-aa75-4812-b26a-2d244184671f"/>
+    <weighted-embedded-action uid="f48adae0-9edd-4756-87cb-79223400a554"/>
+    <weighted-embedded-action uid="f484b393-7318-422e-8f63-3eb63500c98e"/>
+    <weighted-embedded-action uid="a2930439-61cb-4b85-8934-653a72400363"/>
+    <weighted-embedded-action uid="e3239f36-4c07-4f39-8076-66f106eb4bb2"/>
+    <weighted-embedded-action uid="db18d96d-a86c-4874-a4f9-6d181c2ba4a7"/>
+    <weighted-embedded-action uid="2ad180ea-be90-44fb-9d54-b180e76fab1c"/>
+</basic-logical-action-container>

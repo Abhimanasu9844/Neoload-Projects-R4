@@ -1,0 +1,233 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/announcements" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/0c316ffc-178a-411b-bf68-8483fa28e9c2.zip"
+    slaProfileEnabled="false" thinkTime="59"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="0c316ffc-178a-411b-bf68-8483fa28e9c2">
+    <embedded-action>31b30fd2-2fa8-4626-b3a9-02d587749175</embedded-action>
+    <embedded-action>36ee14fe-2fe6-48eb-9114-253dd1445e16</embedded-action>
+    <embedded-action>2287ffe6-a21e-45c5-90f3-170196b74cf8</embedded-action>
+    <embedded-action>28aee620-57f8-4c86-ba7b-3720fa1e90a2</embedded-action>
+    <embedded-action>1f6a712f-f35f-4eeb-9bf2-a692b66c5ec4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_0c316ffc-178a-411b-bf68-8483fa28e9c2.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/v1/announcements"
+    path="/api/v1/announcements" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/0c316ffc-178a-411b-bf68-8483fa28e9c2.zip"
+    recordedResponseCode="200" responseSize="461"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="31b30fd2-2fa8-4626-b3a9-02d587749175" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_31b30fd2-2fa8-4626-b3a9-02d587749175</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_31b30fd2-2fa8-4626-b3a9-02d587749175.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="false" name="page"
+        recordRawValue="login,all" separator="=" value="login,all" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Fri, 22 Aug 2025 09:08:25 GMT&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-dev-tm-fss-landing-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com; img-src 'self' data: api.qrserver.com&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: SzvzJ0ZFxdUm321V99TI1ENfYmKe8_fz5eXl_FvgBkkXhTu4RshvRA==&#xd;
+server-timing: cfReqDur;dur=313.291&#xd;
+cf-team: 2972a268210000c17921391400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/media/Lato-Semibold.d585c7df44df3024c49b.ttf"
+    path="/static/media/Lato-Semibold.d585c7df44df3024c49b.ttf"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/0c316ffc-178a-411b-bf68-8483fa28e9c2.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="36ee14fe-2fe6-48eb-9114-253dd1445e16" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_36ee14fe-2fe6-48eb-9114-253dd1445e16</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_36ee14fe-2fe6-48eb-9114-253dd1445e16.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/static/css/main.4ecc42b6.css"/>
+    <header name="if-none-match" value="&quot;68a58baa-a362c&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=4"/>
+    <header name="accept" value="*/*"/>
+    <header name="if-modified-since" value="Wed, 20 Aug 2025 08:47:38 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Thu, 21 Aug 2025 10:05:49 GMT&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Wed, 20 Aug 2025 08:47:38 GMT&#xd;
+etag: "68a58baa-a362c"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: n8xamcD7iM0lQ3A0KiFV4s4gCAdFL546Rbr48ka2jb2paRf3IUeZRQ==&#xd;
+age: 82956&#xd;
+server-timing: cfReqDur;dur=158.049&#xd;
+cf-team: 2972a268530000c17921398400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/media/Lato-Medium.dffae17524847ef31d01.ttf"
+    path="/static/media/Lato-Medium.dffae17524847ef31d01.ttf"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/0c316ffc-178a-411b-bf68-8483fa28e9c2.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="2287ffe6-a21e-45c5-90f3-170196b74cf8" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_2287ffe6-a21e-45c5-90f3-170196b74cf8</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_2287ffe6-a21e-45c5-90f3-170196b74cf8.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/static/css/main.4ecc42b6.css"/>
+    <header name="if-none-match" value="&quot;68a58baa-9b88c&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=4"/>
+    <header name="accept" value="*/*"/>
+    <header name="if-modified-since" value="Wed, 20 Aug 2025 08:47:38 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Thu, 21 Aug 2025 10:05:49 GMT&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Wed, 20 Aug 2025 08:47:38 GMT&#xd;
+etag: "68a58baa-9b88c"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: FpoaCZ9Qhz5PawrY4G3rM-l32v80RfF6wDtmgFOcR5_uqyApAvDt2g==&#xd;
+age: 82956&#xd;
+server-timing: cfReqDur;dur=144.646&#xd;
+cf-team: 2972a268610000c1792139a400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/static/media/Lato-Bold.bb154e8dcbf157f82e9b.ttf"
+    path="/static/media/Lato-Bold.bb154e8dcbf157f82e9b.ttf" postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/0c316ffc-178a-411b-bf68-8483fa28e9c2.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="28aee620-57f8-4c86-ba7b-3720fa1e90a2" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_28aee620-57f8-4c86-ba7b-3720fa1e90a2</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_28aee620-57f8-4c86-ba7b-3720fa1e90a2.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/static/css/main.4ecc42b6.css"/>
+    <header name="if-none-match" value="&quot;68a58baa-a0724&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=4"/>
+    <header name="accept" value="*/*"/>
+    <header name="if-modified-since" value="Wed, 20 Aug 2025 08:47:38 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Thu, 21 Aug 2025 10:05:49 GMT&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Wed, 20 Aug 2025 08:47:38 GMT&#xd;
+etag: "68a58baa-a0724"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: HhkesIwnYyS4Dbv8ZSprCynGirWZUOxGjCcabRaEkIBpIilXTNwASg==&#xd;
+age: 82956&#xd;
+server-timing: cfReqDur;dur=144.749&#xd;
+cf-team: 2972a268610000c17921399400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2"
+    path="/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/0c316ffc-178a-411b-bf68-8483fa28e9c2.zip"
+    recordedResponseCode="304" responseSize="0"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="1f6a712f-f35f-4eeb-9bf2-a692b66c5ec4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_1f6a712f-f35f-4eeb-9bf2-a692b66c5ec4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_1f6a712f-f35f-4eeb-9bf2-a692b66c5ec4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/static/css/main.4ecc42b6.css"/>
+    <header name="if-none-match" value="&quot;68a58baa-20b9c&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept" value="*/*"/>
+    <header name="if-modified-since" value="Wed, 20 Aug 2025 08:47:38 GMT"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="font"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 304&#xd;
+date: Thu, 21 Aug 2025 09:51:22 GMT&#xd;
+server: nginx/1.29.1&#xd;
+last-modified: Wed, 20 Aug 2025 08:47:38 GMT&#xd;
+etag: "68a58baa-20b9c"&#xd;
+x-cache: Hit from cloudfront&#xd;
+via: 1.1 e3d27343c37766f7c4e8005d9d973068.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: cMTjbg8_i4R9cv1truGJMOWAPsu98EaHXDm2NjOVTPBZKx4jPGHHBQ==&#xd;
+age: 83823&#xd;
+server-timing: cfReqDur;dur=106.878&#xd;
+cf-team: 2972a269900000c179213cd400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

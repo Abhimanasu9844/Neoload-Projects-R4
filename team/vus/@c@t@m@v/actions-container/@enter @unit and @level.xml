@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Enter Unit and Level" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="596fd4b7-cd7d-4d13-8427-ae89aa1274f3" weightsEnabled="false">
+    <weighted-embedded-action uid="cc75189b-b618-40ae-931b-2328b86b8813"/>
+    <weighted-embedded-action uid="aa98dc8c-3062-41e6-b67d-0627ee234651"/>
+</basic-logical-action-container>

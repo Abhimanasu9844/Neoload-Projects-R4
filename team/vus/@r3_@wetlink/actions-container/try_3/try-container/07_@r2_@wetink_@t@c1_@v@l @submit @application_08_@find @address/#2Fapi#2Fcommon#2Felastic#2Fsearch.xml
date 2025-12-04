@@ -1,0 +1,127 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/common/elastic/search" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/8e077690-e7ba-43f1-acc4-f66ec2572503.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="8e077690-e7ba-43f1-acc4-f66ec2572503">
+    <embedded-action>60650fb7-5fcc-4809-8ad6-d82355dddccd</embedded-action>
+</http-page>
+<http-action actionType="1"
+    contentType="application/json; charset=utf-8"
+    eTag="W/&quot;1e3-v8iCCpBgytyENSEDn4gO4ViY9Ho&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/common/elastic/search"
+    path="/api/common/elastic/search" postType="6"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/8e077690-e7ba-43f1-acc4-f66ec2572503.zip"
+    recordedResponseCode="200" responseSize="457"
+    serverUid="www.onemap.gov.sg" slaProfileEnabled="false"
+    uid="60650fb7-5fcc-4809-8ad6-d82355dddccd" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_efcd258c-f408-4eac-8c7f-14b859e434f5</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_efcd258c-f408-4eac-8c7f-14b859e434f5.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Building"
+        refererUid="2368bb10-bc21-4435-914a-4153e5eb96da"
+        regExp="&quot;BUILDING&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;BUILDING&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="78e43a65-aa71-414b-ad6c-36033651be85" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_BlockNo"
+        refererUid="2368bb10-bc21-4435-914a-4153e5eb96da"
+        regExp="&quot;BLK_NO&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;BLK_NO&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="f389dfce-e3d2-4e80-acf0-fb6710ac47f3" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_PostalCode"
+        refererUid="2368bb10-bc21-4435-914a-4153e5eb96da"
+        regExp="&quot;POSTAL&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;POSTAL&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="46505d9c-1303-4aa0-b837-4d43d7af406c" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_StreetName"
+        refererUid="2368bb10-bc21-4435-914a-4153e5eb96da"
+        regExp="&quot;ROAD_NAME&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;ROAD_NAME&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="72f8eb5d-7896-47fc-a9cb-94afe3b8f956" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="searchVal"
+        recordRawValue="159017" separator="="
+        value="${07_Wetink.PostCode}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="returnGeom"
+        recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="getAddrDetails" recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="www.onemap.gov.sg"/>
+    <header name="Origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;137&quot;, &quot;Chromium&quot;;v=&quot;137&quot;, &quot;Not/A)Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Fri, 30 May 2025 03:33:47 GMT&#xd;
+Content-Type: application/json; charset=utf-8&#xd;
+Content-Length: 457&#xd;
+Connection: keep-alive&#xd;
+Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests&#xd;
+Cross-Origin-Opener-Policy: same-origin&#xd;
+Cross-Origin-Resource-Policy: same-origin&#xd;
+Origin-Agent-Cluster: ?1&#xd;
+Referrer-Policy: no-referrer&#xd;
+X-Content-Type-Options: nosniff&#xd;
+X-DNS-Prefetch-Control: off&#xd;
+X-Download-Options: noopen&#xd;
+X-Frame-Options: SAMEORIGIN&#xd;
+X-Permitted-Cross-Domain-Policies: none&#xd;
+X-XSS-Protection: 0&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Headers: X-Requested-With&#xd;
+ETag: W/"1c9-Z2xTXQgK7axhUUQJ2d6cyrlfCeY"&#xd;
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload&#xd;
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, PURGE, HEAD, OPTIONS, FETCH&#xd;
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,x-signalr-user-agent&#xd;
+Content-Security-Policy: upgrade-insecure-requests;&#xd;
+Access-Control-Allow-Methods: GET, POST, PUT, DELETE, PATCH, PURGE, HEAD, OPTIONS, FETCH&#xd;
+Access-Control-Allow-Headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,x-signalr-user-agent&#xd;
+X-Remote-Addr: 13.228.131.105&#xd;
+Set-Cookie: _toffsuid=rB8Gf2g5Jxsb+UxcBtSyAg==; expires=Fri, 29-May-26 03:33:47 GMT; path=/; Secure; HttpOnly; SameSite=strict&#xd;
+Accept-Ranges: bytes</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Create transaction" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="894057ab-047b-4bb9-ab8b-f5c66aad935b" weightsEnabled="false">
+    <weighted-embedded-action uid="465e9642-cee9-48fd-96ea-86a4b9ce465f"/>
+    <weighted-embedded-action uid="a45bc7fa-d435-42c4-b42c-c8c7c6cf43b5"/>
+    <weighted-embedded-action uid="413bf2e0-f77c-4a2e-90d0-ef462d5355d7"/>
+    <weighted-embedded-action uid="f7a1cc95-7956-4f3b-a7e1-472376eca2ec"/>
+</basic-logical-action-container>

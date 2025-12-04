@@ -1,0 +1,8 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select and click on Next" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="8ff2da3f-0796-44fd-9a2c-709b79dc7d72" weightsEnabled="false">
+    <weighted-embedded-action uid="16d08a7d-30c4-48ae-b59b-c46e3b03ea0e"/>
+    <weighted-embedded-action uid="60004189-a932-4004-8dad-89a4f0ee3c2e"/>
+    <weighted-embedded-action uid="78d2e501-03c1-4243-a187-728a804c563b"/>
+</basic-logical-action-container>

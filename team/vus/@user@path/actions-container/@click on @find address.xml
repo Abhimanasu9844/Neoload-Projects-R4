@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click on Find address" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="326bee62-0699-4b2e-9f34-17639c30ab62" weightsEnabled="false">
+    <weighted-embedded-action uid="98cc1667-1798-42ef-9a6a-af56649b0470"/>
+</basic-logical-action-container>

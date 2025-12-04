@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CLick on add Users" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="da8bfa04-e12e-436f-abad-cb3f86477f06" weightsEnabled="false">
+    <weighted-embedded-action uid="04a65349-92c3-4de8-9e10-1a4759bf2f59"/>
+</basic-logical-action-container>

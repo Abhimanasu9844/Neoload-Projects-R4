@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select no propserty" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="1480e27e-c301-48d3-82c2-32297346d9c0" weightsEnabled="false">
+    <weighted-embedded-action uid="8d0253fa-961b-4369-9789-8a51faa9d55c"/>
+    <weighted-embedded-action uid="4647df22-0943-475e-8bd2-d9499fd55dd5"/>
+    <weighted-embedded-action uid="9abcfd99-463a-4f2d-8cb5-ecc71e4fbe3c"/>
+    <weighted-embedded-action uid="cb0fbca8-e7db-4e23-9925-376a2beb8f02"/>
+    <weighted-embedded-action uid="38abd5b1-bd43-44a0-8513-c9423cfdb21d"/>
+</basic-logical-action-container>

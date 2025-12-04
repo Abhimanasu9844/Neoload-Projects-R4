@@ -1,0 +1,59 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/ms/myinfo/getProfileDetails"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@c@t@m@v/%resources%/recorded-artifacts/a2711107-2fab-4e48-a596-dc81b6c06374.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="a2711107-2fab-4e48-a596-dc81b6c06374">
+    <embedded-action>80fd0a94-9432-420a-9093-dccd698ec144</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_a2711107-2fab-4e48-a596-dc81b6c06374.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/v1/ms/myinfo/getProfileDetails"
+    path="/api/v1/ms/myinfo/getProfileDetails" postType="6"
+    recordedArtifactZipFileName="team/vus/@c@t@m@v/%resources%/recorded-artifacts/a2711107-2fab-4e48-a596-dc81b6c06374.zip"
+    recordedResponseCode="200" responseSize="616"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="80fd0a94-9432-420a-9093-dccd698ec144" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_80fd0a94-9432-420a-9093-dccd698ec144</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_80fd0a94-9432-420a-9093-dccd698ec144.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="authorization" value="Bearer eyJraWQiOiJzaWctMjAyMy0wOC0xNVQwNjo0NzoxOFoiLCJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1YXQtZGNwLnNsYS5nb3Yuc2ciLCJzdWIiOiI4ZjIyODY4OS1iN2YzLTQyMDItYjA2ZC01NWQ4NmVlYjU2YTAiLCJyb2xlIjoiTU9QIiwibmFtZSI6IlA5OTk5MDAxVCIsInNlc3Npb25JZCI6IjAxOTkwZjA5LWM1YTYtNzRjNS1hNWE1LWNmODY2YmZjYjIxNSIsImV4cCI6MTc1NjkxNTUyM30.o-3leM5Mon0HmECWKZuU1xz2xew-hWBABfI37RW3g6HFzaMEAnM4Eval6TBDaOGxMxt6GGSmkifBVNQWsQdzAA"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/Dashboard"/>
+    <header name="sec-ch-ua" value="&quot;Not;A=Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;139&quot;, &quot;Chromium&quot;;v=&quot;139&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Wed, 03 Sep 2025 10:05:24 GMT&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-dev-tm-fss-landing-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com; img-src 'self' data: api.qrserver.com&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 11d649b48d08841950335080f770eea8.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: 5NpoC7xMO7X1rVqIM3BLUtM1nIQIci7GxNWcMRfkxn1zXJErMAEfQw==&#xd;
+server-timing: cfReqDur;dur=376.559&#xd;
+cf-team: 29b0a2e381000121f83cb2a400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

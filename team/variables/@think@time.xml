@@ -1,0 +1,7 @@
+<variable-list name="ThinkTime" offset="1" order="1" policy="5" range="2" uid="b7da42fc-a1af-4543-bac5-abd10f398bed" whenOutOfValues="CYCLE_VALUES">
+<column name="Max_TinkTime" number="1"/>
+<column name="Min_ThinkTime" number="0"/>
+<column name="N_Max_ThinkTime" number="3"/>
+<column name="N_Min_ThinkTime" number="2"/>
+<values><![CDATA[rO0ABXVyABRbW0xqYXZhLmxhbmcuU3RyaW5nOzJNCa2EMuRXAgAAeHAAAAABdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAABHQAAzUwMHQABDEwMDB0AAUxMDAwMHQABTExMDAw]]></values>
+</variable-list>

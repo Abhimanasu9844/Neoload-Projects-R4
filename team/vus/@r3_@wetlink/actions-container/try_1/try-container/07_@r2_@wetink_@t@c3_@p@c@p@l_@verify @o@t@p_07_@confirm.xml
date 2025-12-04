@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC3_PCPL_Verify OTP_07_Confirm" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="378bf6ad-3900-45fd-be1e-c1d8618a1233" weightsEnabled="false">
+    <weighted-embedded-action uid="06892e16-05f2-42a4-8357-c4b5df4cb8d8"/>
+    <weighted-embedded-action uid="d81f17e9-db4b-4a6d-8e5d-14af4a96b3c3"/>
+</basic-logical-action-container>

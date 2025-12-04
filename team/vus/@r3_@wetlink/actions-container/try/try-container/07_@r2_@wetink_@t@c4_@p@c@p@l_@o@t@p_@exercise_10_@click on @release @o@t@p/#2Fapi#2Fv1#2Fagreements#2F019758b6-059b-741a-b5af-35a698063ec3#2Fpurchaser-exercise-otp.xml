@@ -1,0 +1,63 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/agreements/019758b6-059b-741a-b5af-35a698063ec3/purchaser-exercise-otp"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/7bbdf5ca-3533-45d0-8c62-61e813749b85.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="7bbdf5ca-3533-45d0-8c62-61e813749b85">
+    <embedded-action>0804aa4b-d46e-46aa-a8c0-be6b71c5e413</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_32ecd0e5-6760-45c8-88a5-882ce3518b14.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="/api/v1/agreements/019758b6-059b-741a-b5af-35a698063ec3/purchaser-exercise-otp"
+    path="/api/v1/agreements/${C_agreementId1}/purchaser-exercise-otp"
+    postCharset="ISO-8859-1" postType="4"
+    recordedArtifactZipFileName="team/vus/@r3_@wetlink/%resources%/recorded-artifacts/7bbdf5ca-3533-45d0-8c62-61e813749b85.zip"
+    recordedResponseCode="200" responseSize="58"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="0804aa4b-d46e-46aa-a8c0-be6b71c5e413" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_9be79d58-a6b0-4924-a282-41595cf7a1a4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_9be79d58-a6b0-4924-a282-41595cf7a1a4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/WetInkPurchaserReleaseOtp"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer ${C_token74}"/>
+    <header name="sec-ch-ua" value="&quot;Chromium&quot;;v=&quot;136&quot;, &quot;Google Chrome&quot;;v=&quot;136&quot;, &quot;Not.A/Brand&quot;;v=&quot;99&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Tue, 10 Jun 2025 08:07:06 GMT&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-frame-options: DENY&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 0298108af02f6ec7aff5bed25793bd00.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BLR50-P2&#xd;
+x-amz-cf-id: CuZkrBYU6A0CIN2asznhczbu8uy6XYJ7eO5hITzkCReKpj2ov1Bazg==&#xd;
+server-timing: cfReqDur;dur=1336.144&#xd;
+cf-team: 27fa7a05900000c1bda0f90400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"agreement":{"agreementId":"${C_agreementId1}","agreementTypeId":"e43dbb07-8838-4d5c-91d5-4e53171e4e27","paymentModeId":"3f295984-3039-405d-a152-6464ef805946","paymentTypeId":"7d056704-97e6-4564-843c-c9531edd6c31","transactionId":"${C_Transactionid4}","documentId":"${C_documentId1}","propertyTypeId":"d4b8e122-f62a-4b89-bba8-973b70b296eb","venderGstRegistered":null,"releasedUserId":null,"purchasePriceInclusive":null,"purchasePrice":10000,"dob":null,"optionFee":400,"balanceOfDeposit":500,"expiryDate":"${ExpiryDate}T16:00:00","occupation":null,"completionDate":null,"subSalePrice":null,"otpMadeTo":3,"subSaleContractDate":null,"balanceOfDepositTobe":null,"subSaleCompletionDate":null,"termsConditions":"","purchasePriceInclusiveStr":null,"isDeclared":null,"optionDate":"","coName":null,"optionExpiryDateCount":2,"agreementStatusId":"c0a9f5b0-99ee-41b9-8ff7-69ee46560096","createdDate":"${C_CreatedDate}","updatedDate":"${C_update}","isDeleted":false,"propertytypecode":"RES","propertytypedescription":"Residential","expiryDateTime":null,"balanceOfDepositeToBe":null,"dateOfOTP":null,"completionType":"01c384c3-89a0-47f4-8d72-7ac6e87aabe3","completionDateCount":2,"optionExpiryType":"6128aaa7-9356-41fc-80b8-8f04d4b9ab65","subPurchaserFileRef":null,"balanceOfDepositPercentage":5,"isAgreed":null,"releasedDate":null,"createdBy":"${C_Createdby}","optionFeePercentage":4,"isReleased":null,"updatedBy":"${C_updatedby}","agreementStatusCode":"PURCHASER_SIGNED_RELEASED","agreementStatusDescription":"Vendor Signed Released","purchaserProposedExtensionDate":null,"optionExpiryTempTime":"16:00:00","otpType":"WET_INK_OTP","wetInkOptionDate":"${CurrentDate}T00:00:00"},"notification":{"notificationId":"${C_Notificationid}","decision":"ACCEPTED"},"documentRequest":{"transactionId":"${C_Transactionid4}","userId":"${C_updatedby}","notificationId":"${C_Notificationid}"},"flowType":"WetInk","documentId":"${C_DocId}","vcaOpted":false}]]></textPostContent>
+</http-action>

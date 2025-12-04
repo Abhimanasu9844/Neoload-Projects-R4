@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click on Upload additional" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="607cacf2-f5cd-4f1b-82a0-8cdcdc5bddaf" weightsEnabled="false">
+    <weighted-embedded-action uid="805da306-ad91-4a3f-932f-89fdd76d0cc8"/>
+</basic-logical-action-container>

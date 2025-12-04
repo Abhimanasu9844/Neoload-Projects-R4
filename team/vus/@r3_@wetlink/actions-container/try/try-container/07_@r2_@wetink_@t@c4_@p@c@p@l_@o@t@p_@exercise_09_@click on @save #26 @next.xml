@@ -1,0 +1,17 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="07_R2_Wetink_TC4_PCPL_OTP_Exercise_09_Click on Save &amp; Next"
+    pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="bf9f51e8-1d12-462d-83b6-a3d9bd84d819" weightsEnabled="false">
+    <weighted-embedded-action uid="4b7aca6a-5e8e-45b8-9b55-e1e552ab6c6a"/>
+    <weighted-embedded-action uid="e33c7115-cd56-4340-8e38-bd2930af2b2c"/>
+    <weighted-embedded-action uid="4b9b6517-9490-41e4-80b2-a9976bdc982d"/>
+    <weighted-embedded-action uid="3cb329c0-0aa4-4636-bac4-af88c0ae4558"/>
+    <weighted-embedded-action uid="5b9db9fe-6417-433d-96a8-39bf0294c01a"/>
+    <weighted-embedded-action uid="b514189c-9ebc-4077-90eb-d69022b89a81"/>
+    <weighted-embedded-action uid="f0a72d42-a70a-47ad-af58-f007a31603ea"/>
+    <weighted-embedded-action uid="c9846fa0-dd74-4d49-94c6-bd875fae2ebf"/>
+    <weighted-embedded-action uid="5832bdac-75e8-492e-92f3-97b2e4d650a6"/>
+    <weighted-embedded-action uid="7de48607-e5c8-41f1-97f4-2a80414cb4bb"/>
+    <weighted-embedded-action uid="5b91049c-c60d-4ee3-9d98-57c54ea0309c"/>
+</basic-logical-action-container>

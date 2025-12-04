@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="upload" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="a265942e-c741-41b7-8074-3de448e08789" weightsEnabled="false">
+    <weighted-embedded-action uid="d4e1efb3-c3e2-4ed7-a0c8-df8baf2333f0"/>
+    <weighted-embedded-action uid="8a5bfd4a-329e-418f-8dfd-b981605615b2"/>
+</basic-logical-action-container>

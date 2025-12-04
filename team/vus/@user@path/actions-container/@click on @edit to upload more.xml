@@ -1,0 +1,20 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Click on Edit to upload more" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="148b0ec0-ad53-4a1d-ab6d-4f48c838b138" weightsEnabled="false">
+    <weighted-embedded-action uid="c4fec651-dace-4bc5-b83d-b08ceb12ae89"/>
+    <weighted-embedded-action uid="b778bdda-f31e-4080-9e80-381ced7fec76"/>
+    <weighted-embedded-action uid="9acbce23-fa9f-4fa0-94e5-8741b6ba2275"/>
+    <weighted-embedded-action uid="f629a5a0-828a-4aae-a5a9-25d47840b71c"/>
+    <weighted-embedded-action uid="19dfdb6c-da39-4724-a036-8dfe96d895f6"/>
+    <weighted-embedded-action uid="40eced26-7c9c-47b9-932f-48b6bcd822fe"/>
+    <weighted-embedded-action uid="f30ef067-262c-47d8-ae8c-415f0cfcfc54"/>
+    <weighted-embedded-action uid="e3b52836-03e5-4c50-ad0b-973f21105e57"/>
+    <weighted-embedded-action uid="a90bd945-02d1-466a-baaf-e33fce48eedd"/>
+    <weighted-embedded-action uid="8c9e4502-2ee7-4da8-837e-ff8b95cfbfa1"/>
+    <weighted-embedded-action uid="a4a9b08d-ff08-4f9e-b679-babdfadf1c79"/>
+    <weighted-embedded-action uid="05f6dc99-7609-46c0-9e77-f8850446edcb"/>
+    <weighted-embedded-action uid="d05dbe50-a30d-4d92-ab27-845436508301"/>
+    <weighted-embedded-action uid="f7e02dc7-32de-4e63-a403-0119dc92437c"/>
+    <weighted-embedded-action uid="346e18a0-3cec-4715-9d61-f6e33d8f39f3"/>
+</basic-logical-action-container>
