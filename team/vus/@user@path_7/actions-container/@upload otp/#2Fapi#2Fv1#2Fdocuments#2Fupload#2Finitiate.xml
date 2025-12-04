@@ -1,0 +1,207 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/documents/upload/initiate"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_7/%resources%/recorded-artifacts/5a99db70-41f5-4c7c-ab29-6fde18894cee.zip"
+    slaProfileEnabled="false" thinkTime="15248"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="5a99db70-41f5-4c7c-ab29-6fde18894cee">
+    <embedded-action>6c8bd737-f00f-49ac-a1e4-94de5e597749</embedded-action>
+    <embedded-action>93672537-6c96-4b77-99e2-0fa0956f9c8d</embedded-action>
+    <embedded-action>16989be4-55cc-450e-83e3-5d4e4ba3bf1a</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_075cea00-5503-4aa7-9541-94b741f37ec9.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/v1/documents/upload/initiate"
+    path="/api/v1/documents/upload/initiate" postCharset="ISO-8859-1"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path_7/%resources%/recorded-artifacts/5a99db70-41f5-4c7c-ab29-6fde18894cee.zip"
+    recordedResponseCode="200" responseSize="2072"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="6c8bd737-f00f-49ac-a1e4-94de5e597749" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_ac3ada5a-8139-4204-ad3a-336c61ea7565</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_ac3ada5a-8139-4204-ad3a-336c61ea7565.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/WetInkOtpSigned"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJraWQiOiJzaWctMjAyMy0wOC0xNVQwNjo0NzoxOFoiLCJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1YXQtZGNwLnNsYS5nb3Yuc2ciLCJzdWIiOiJlOThlN2JiMi1mOWQxLTQwYzItODQwYS1mNDY4MjUyNTc1NmEiLCJjb21wYW55SWQiOiJlNDg4ZGU1Ny01YTUwLTRhNTUtOTA0Yi0yNjllY2U5MTI1NGIiLCJyb2xlIjoiTCIsImNvbXBhbnlUeXBlIjoiTEFXRklSTSIsIm5hbWUiOiJQVCBTdGFmZjMwMSIsInNlc3Npb25JZCI6IjAxOThkMTQ4LTg2YmItNzVhMy04ZDQ5LTI1MzQ3MjMzOGMzZiIsImV4cCI6MTc1NTg3OTQ0OH0.7o5SXGtfUTDHPO4EXygAOE2rkndk7oTCc_l1YTb479QrMdViHkDsjZZufxMxDMV0hPGgOF3Jn2wAikFkNnQVVA"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Fri, 22 Aug 2025 10:18:58 GMT&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-dev-tm-fss-landing-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com; img-src 'self' data: api.qrserver.com&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: DflvEZq2bUEUKpMsjQpo5Lt_a1GqpuyaktNMqME93zneUs-JYLGb1A==&#xd;
+server-timing: cfReqDur;dur=446.655&#xd;
+cf-team: 2972e2fe7e0000c17962cce400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"documentTypeCode":"5400a6f3-be0e-4710-8c62-c561e1468025","fileName":"3-mb-sample-pdf-file.pdf","documentId":""}]]></textPostContent>
+</http-action>
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="OPTIONS"
+    name="/f4fd7239-0fba-4e61-8213-3c956f205263_1755857938393.pdf"
+    path="/f4fd7239-0fba-4e61-8213-3c956f205263_1755857938393.pdf"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@user@path_7/%resources%/recorded-artifacts/5a99db70-41f5-4c7c-ab29-6fde18894cee.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com"
+    slaProfileEnabled="false" uid="93672537-6c96-4b77-99e2-0fa0956f9c8d" useKeepAlive="false">
+    <requestContentFileDescription>recorded-requests/req_7cc049ce-38d2-44d5-bfda-d511c514e240.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-Amz-Security-Token"
+        recordRawValue="IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgR8gPEIdVQJhc3RgEhgoy48%2FT79ey738NGLXHpot1KZQCICIs2x8GLC9Q%2FY3BN57l7IcqYODGKWnXGlFSvKYyvGFxKssFCBEQABoMNDcxMTEyOTUwMDczIgx0g32QdynTGHBzkjYqqAUH3FPSt3vZT7eVL3juQU2liN7YFH3f93XXZvpHnEaKxob3LiXwBmWBVVu0IhspUWAlnJ4nWDvJWm9x0cdIVWPNmBKpOUWahk2aDCyCbUsZ%2BN2L%2FD530PCTqxBGm1tiLf7i7j%2FkxLMKOe0esq%2BJhcsidQlm4H7mxRmSOmVhH3LIoa1qUbToP%2B5%2F2wMi3ymAXpMytGBEEkCTl3FoRa5n4%2FogRxekbMwMC1I64YtxEVyDjB%2BGg6mvyVovywwpsjaZUY8l1uJ6GOkVt2UNQEjW2XKNLAit28ohBTHZEBDnh55XH2J7gaYh1ox5hkJlfpRB6IIsgN6VGzkEvOkh23WnkIHdQxBKfLcenKOWiJLdhhLBeJ2s2GAU88yWRp8rV84zoR9ahpNoD2zrrnzKH4zxrk6kXRj394YsCLWS3HIul81Detkv%2FiZeqq%2FAPc084mtWJbCj9o3IZW5g%2BjSeTNgOUedO5YqPKeEEm%2BkRTsRemZ9xNMgdwBK8HJ%2B8n6Xo62hM3vqy%2FHta%2BiRfZReAF9ka34yuolCgJpEVw8IxrFu7hpt8WmdQnJIL%2FNYHEeIpRzgc56y%2FMueOOOiU9ZWwoPnnqoSOgEu00yhtk5yC%2F%2FC6BICFNq%2Blqjilg7%2Bx%2B5lLC%2B7r%2BVUIUnjPeFJcYGF%2Fvy4T20DcyG1is1oB3i2%2FABGNwrtZbt0KKckotvl5fXgI4ffN9QdhWz8WS%2FMu6twohCK%2BDXZQEO%2BXyilApu4sjJBa8gI6w%2FbfhQmXVwSTlQVYk0Up1TAQHDkLHYY%2FvNVfJv7Cxk44Kg6VM3lbbZce0AaNE%2BtQ27F3xNtvy2oqXHlxuPB%2BlOjJBA3aiHrjwFsYddhStfDewdR3z6LIh7FAWhHeaP%2F0U6An146kbKZGmQJ6u6lifrEnwg3xOK1xYjDezqDFBjqyAThc7fg2sFnwhBubZ0dMDZ%2F0HXacUGzF2fBYfOU7MfskicsPAdzseBmWsqlVfAknBg%2BHPMB1Zc1iBGxkaDudwCYUJpRnTEIRTgVep2EQIJTxfKFIDelb%2BhXumVji7isl%2Fr5moDszkVd8qZbanvGIO%2BTbCzLCNMSb8BpZQw0gdbvY7DlfYWtCLoeUu7XgbaDXreHJX4Y7Z0tqzjuMPyEPw%2F7MtJxlJWOLsDFVfOAdZ3WYUlA%3D"
+        separator="="
+        value="IQoJb3JpZ2luX2VjELj//////////wEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgR8gPEIdVQJhc3RgEhgoy48/T79ey738NGLXHpot1KZQCICIs2x8GLC9Q/Y3BN57l7IcqYODGKWnXGlFSvKYyvGFxKssFCBEQABoMNDcxMTEyOTUwMDczIgx0g32QdynTGHBzkjYqqAUH3FPSt3vZT7eVL3juQU2liN7YFH3f93XXZvpHnEaKxob3LiXwBmWBVVu0IhspUWAlnJ4nWDvJWm9x0cdIVWPNmBKpOUWahk2aDCyCbUsZ+N2L/D530PCTqxBGm1tiLf7i7j/kxLMKOe0esq+JhcsidQlm4H7mxRmSOmVhH3LIoa1qUbToP+5/2wMi3ymAXpMytGBEEkCTl3FoRa5n4/ogRxekbMwMC1I64YtxEVyDjB+Gg6mvyVovywwpsjaZUY8l1uJ6GOkVt2UNQEjW2XKNLAit28ohBTHZEBDnh55XH2J7gaYh1ox5hkJlfpRB6IIsgN6VGzkEvOkh23WnkIHdQxBKfLcenKOWiJLdhhLBeJ2s2GAU88yWRp8rV84zoR9ahpNoD2zrrnzKH4zxrk6kXRj394YsCLWS3HIul81Detkv/iZeqq/APc084mtWJbCj9o3IZW5g+jSeTNgOUedO5YqPKeEEm+kRTsRemZ9xNMgdwBK8HJ+8n6Xo62hM3vqy/Hta+iRfZReAF9ka34yuolCgJpEVw8IxrFu7hpt8WmdQnJIL/NYHEeIpRzgc56y/MueOOOiU9ZWwoPnnqoSOgEu00yhtk5yC//C6BICFNq+lqjilg7+x+5lLC+7r+VUIUnjPeFJcYGF/vy4T20DcyG1is1oB3i2/ABGNwrtZbt0KKckotvl5fXgI4ffN9QdhWz8WS/Mu6twohCK+DXZQEO+XyilApu4sjJBa8gI6w/bfhQmXVwSTlQVYk0Up1TAQHDkLHYY/vNVfJv7Cxk44Kg6VM3lbbZce0AaNE+tQ27F3xNtvy2oqXHlxuPB+lOjJBA3aiHrjwFsYddhStfDewdR3z6LIh7FAWhHeaP/0U6An146kbKZGmQJ6u6lifrEnwg3xOK1xYjDezqDFBjqyAThc7fg2sFnwhBubZ0dMDZ/0HXacUGzF2fBYfOU7MfskicsPAdzseBmWsqlVfAknBg+HPMB1Zc1iBGxkaDudwCYUJpRnTEIRTgVep2EQIJTxfKFIDelb+hXumVji7isl/r5moDszkVd8qZbanvGIO+TbCzLCNMSb8BpZQw0gdbvY7DlfYWtCLoeUu7XgbaDXreHJX4Y7Z0tqzjuMPyEPw/7MtJxlJWOLsDFVfOAdZ3WYUlA=" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-Amz-Algorithm" recordRawValue="AWS4-HMAC-SHA256"
+        separator="=" value="AWS4-HMAC-SHA256" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="X-Amz-Date"
+        recordRawValue="20250822T101858Z" separator="="
+        value="20250822T101858Z" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-Amz-SignedHeaders" recordRawValue="host%3Bx-amz-meta-id"
+        separator="=" value="host;x-amz-meta-id" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-Amz-Credential"
+        recordRawValue="ASIAW3MEFEE4RZCP3THO%2F20250822%2Fap-southeast-1%2Fs3%2Faws4_request"
+        separator="="
+        value="ASIAW3MEFEE4RZCP3THO/20250822/ap-southeast-1/s3/aws4_request" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="X-Amz-Expires"
+        recordRawValue="300" separator="=" value="300" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="X-Amz-Signature"
+        recordRawValue="bee3729b4177b059cb310961e5ecad00fb0a2273cddef1edddb07151ec723829"
+        separator="="
+        value="bee3729b4177b059cb310961e5ecad00fb0a2273cddef1edddb07151ec723829" valueMode="USE_VALUE"/>
+    <header name="Accept" value="*/*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Access-Control-Request-Headers" value="content-type,x-amz-meta-id"/>
+    <header name="Access-Control-Request-Method" value="PUT"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Host" value="sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com"/>
+    <header name="Origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+x-amz-id-2: a68r59Nnlh87Y7KvlyYJ7nsAcGN02MKMdu64Aolo1T62ke3qmNn0XPTuF54GvQuwxsrfSLFoThE=&#xd;
+x-amz-request-id: SV0W19S7NRT6V979&#xd;
+Date: Fri, 22 Aug 2025 10:18:59 GMT&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT&#xd;
+Access-Control-Allow-Headers: content-type, x-amz-meta-id&#xd;
+Access-Control-Max-Age: 0&#xd;
+Vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method&#xd;
+Content-Length: 0&#xd;
+Server: AmazonS3</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1"
+    binaryFileName="recorded-resources/03819be6-66cd-48f8-8573-3cbd972dc562"
+    binaryType="FILE" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT"
+    name="/f4fd7239-0fba-4e61-8213-3c956f205263_1755857938393.pdf"
+    path="/f4fd7239-0fba-4e61-8213-3c956f205263_1755857938393.pdf"
+    postType="2"
+    recordedArtifactZipFileName="team/vus/@user@path_7/%resources%/recorded-artifacts/5a99db70-41f5-4c7c-ab29-6fde18894cee.zip"
+    recordedResponseCode="200" responseSize="0"
+    serverUid="sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com"
+    slaProfileEnabled="false" uid="16989be4-55cc-450e-83e3-5d4e4ba3bf1a" useKeepAlive="false">
+    <binaryPostContentBase64><![CDATA[]]></binaryPostContentBase64>
+    <requestContentFileDescription>recorded-requests/req_26e8ce45-27ec-410c-be0f-12fbc74096f2.txt</requestContentFileDescription>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-Security-Token"
+        recordRawValue="IQoJb3JpZ2luX2VjELj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgR8gPEIdVQJhc3RgEhgoy48%2FT79ey738NGLXHpot1KZQCICIs2x8GLC9Q%2FY3BN57l7IcqYODGKWnXGlFSvKYyvGFxKssFCBEQABoMNDcxMTEyOTUwMDczIgx0g32QdynTGHBzkjYqqAUH3FPSt3vZT7eVL3juQU2liN7YFH3f93XXZvpHnEaKxob3LiXwBmWBVVu0IhspUWAlnJ4nWDvJWm9x0cdIVWPNmBKpOUWahk2aDCyCbUsZ%2BN2L%2FD530PCTqxBGm1tiLf7i7j%2FkxLMKOe0esq%2BJhcsidQlm4H7mxRmSOmVhH3LIoa1qUbToP%2B5%2F2wMi3ymAXpMytGBEEkCTl3FoRa5n4%2FogRxekbMwMC1I64YtxEVyDjB%2BGg6mvyVovywwpsjaZUY8l1uJ6GOkVt2UNQEjW2XKNLAit28ohBTHZEBDnh55XH2J7gaYh1ox5hkJlfpRB6IIsgN6VGzkEvOkh23WnkIHdQxBKfLcenKOWiJLdhhLBeJ2s2GAU88yWRp8rV84zoR9ahpNoD2zrrnzKH4zxrk6kXRj394YsCLWS3HIul81Detkv%2FiZeqq%2FAPc084mtWJbCj9o3IZW5g%2BjSeTNgOUedO5YqPKeEEm%2BkRTsRemZ9xNMgdwBK8HJ%2B8n6Xo62hM3vqy%2FHta%2BiRfZReAF9ka34yuolCgJpEVw8IxrFu7hpt8WmdQnJIL%2FNYHEeIpRzgc56y%2FMueOOOiU9ZWwoPnnqoSOgEu00yhtk5yC%2F%2FC6BICFNq%2Blqjilg7%2Bx%2B5lLC%2B7r%2BVUIUnjPeFJcYGF%2Fvy4T20DcyG1is1oB3i2%2FABGNwrtZbt0KKckotvl5fXgI4ffN9QdhWz8WS%2FMu6twohCK%2BDXZQEO%2BXyilApu4sjJBa8gI6w%2FbfhQmXVwSTlQVYk0Up1TAQHDkLHYY%2FvNVfJv7Cxk44Kg6VM3lbbZce0AaNE%2BtQ27F3xNtvy2oqXHlxuPB%2BlOjJBA3aiHrjwFsYddhStfDewdR3z6LIh7FAWhHeaP%2F0U6An146kbKZGmQJ6u6lifrEnwg3xOK1xYjDezqDFBjqyAThc7fg2sFnwhBubZ0dMDZ%2F0HXacUGzF2fBYfOU7MfskicsPAdzseBmWsqlVfAknBg%2BHPMB1Zc1iBGxkaDudwCYUJpRnTEIRTgVep2EQIJTxfKFIDelb%2BhXumVji7isl%2Fr5moDszkVd8qZbanvGIO%2BTbCzLCNMSb8BpZQw0gdbvY7DlfYWtCLoeUu7XgbaDXreHJX4Y7Z0tqzjuMPyEPw%2F7MtJxlJWOLsDFVfOAdZ3WYUlA%3D"
+        separator="="
+        value="IQoJb3JpZ2luX2VjELj//////////wEaDmFwLXNvdXRoZWFzdC0xIkYwRAIgR8gPEIdVQJhc3RgEhgoy48/T79ey738NGLXHpot1KZQCICIs2x8GLC9Q/Y3BN57l7IcqYODGKWnXGlFSvKYyvGFxKssFCBEQABoMNDcxMTEyOTUwMDczIgx0g32QdynTGHBzkjYqqAUH3FPSt3vZT7eVL3juQU2liN7YFH3f93XXZvpHnEaKxob3LiXwBmWBVVu0IhspUWAlnJ4nWDvJWm9x0cdIVWPNmBKpOUWahk2aDCyCbUsZ+N2L/D530PCTqxBGm1tiLf7i7j/kxLMKOe0esq+JhcsidQlm4H7mxRmSOmVhH3LIoa1qUbToP+5/2wMi3ymAXpMytGBEEkCTl3FoRa5n4/ogRxekbMwMC1I64YtxEVyDjB+Gg6mvyVovywwpsjaZUY8l1uJ6GOkVt2UNQEjW2XKNLAit28ohBTHZEBDnh55XH2J7gaYh1ox5hkJlfpRB6IIsgN6VGzkEvOkh23WnkIHdQxBKfLcenKOWiJLdhhLBeJ2s2GAU88yWRp8rV84zoR9ahpNoD2zrrnzKH4zxrk6kXRj394YsCLWS3HIul81Detkv/iZeqq/APc084mtWJbCj9o3IZW5g+jSeTNgOUedO5YqPKeEEm+kRTsRemZ9xNMgdwBK8HJ+8n6Xo62hM3vqy/Hta+iRfZReAF9ka34yuolCgJpEVw8IxrFu7hpt8WmdQnJIL/NYHEeIpRzgc56y/MueOOOiU9ZWwoPnnqoSOgEu00yhtk5yC//C6BICFNq+lqjilg7+x+5lLC+7r+VUIUnjPeFJcYGF/vy4T20DcyG1is1oB3i2/ABGNwrtZbt0KKckotvl5fXgI4ffN9QdhWz8WS/Mu6twohCK+DXZQEO+XyilApu4sjJBa8gI6w/bfhQmXVwSTlQVYk0Up1TAQHDkLHYY/vNVfJv7Cxk44Kg6VM3lbbZce0AaNE+tQ27F3xNtvy2oqXHlxuPB+lOjJBA3aiHrjwFsYddhStfDewdR3z6LIh7FAWhHeaP/0U6An146kbKZGmQJ6u6lifrEnwg3xOK1xYjDezqDFBjqyAThc7fg2sFnwhBubZ0dMDZ/0HXacUGzF2fBYfOU7MfskicsPAdzseBmWsqlVfAknBg+HPMB1Zc1iBGxkaDudwCYUJpRnTEIRTgVep2EQIJTxfKFIDelb+hXumVji7isl/r5moDszkVd8qZbanvGIO+TbCzLCNMSb8BpZQw0gdbvY7DlfYWtCLoeUu7XgbaDXreHJX4Y7Z0tqzjuMPyEPw/7MtJxlJWOLsDFVfOAdZ3WYUlA=" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-Algorithm" recordRawValue="AWS4-HMAC-SHA256"
+        separator="=" value="AWS4-HMAC-SHA256" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-Date" recordRawValue="20250822T101858Z"
+        separator="=" value="20250822T101858Z" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-SignedHeaders" recordRawValue="host%3Bx-amz-meta-id"
+        separator="=" value="host;x-amz-meta-id" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-Credential"
+        recordRawValue="ASIAW3MEFEE4RZCP3THO%2F20250822%2Fap-southeast-1%2Fs3%2Faws4_request"
+        separator="="
+        value="ASIAW3MEFEE4RZCP3THO/20250822/ap-southeast-1/s3/aws4_request" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-Expires" recordRawValue="300" separator="="
+        value="300" valueMode="USE_VALUE"/>
+    <urlPostParameter encodeName="true" encodeValue="true"
+        name="X-Amz-Signature"
+        recordRawValue="bee3729b4177b059cb310961e5ecad00fb0a2273cddef1edddb07151ec723829"
+        separator="="
+        value="bee3729b4177b059cb310961e5ecad00fb0a2273cddef1edddb07151ec723829" valueMode="USE_VALUE"/>
+    <header name="Accept" value="application/json, text/plain, */*"/>
+    <header name="Accept-Encoding" value="gzip, deflate, br, zstd"/>
+    <header name="Accept-Language" value="en-US,en;q=0.9"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/pdf"/>
+    <header name="Host" value="sst-s3-sla-dcp-uatez-docs-scan-stg-01.s3.ap-southeast-1.amazonaws.com"/>
+    <header name="Origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="Referer" value="https://uat-dcp.sla.gov.sg/"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="Sec-Fetch-Dest" value="empty"/>
+    <header name="Sec-Fetch-Mode" value="cors"/>
+    <header name="Sec-Fetch-Site" value="cross-site"/>
+    <header name="User-Agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <header name="x-amz-meta-id" value="f4fd7239-0fba-4e61-8213-3c956f205263"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+x-amz-id-2: NmaZIWFdfjnob5bYxBCymaDhMeBWPyJnNUvioxyBXU4BgWOo6+lugS7mXTWz/fgbPUq9UKgRfJE=&#xd;
+x-amz-request-id: EHGC3G6V3HFK7Y8J&#xd;
+Date: Fri, 22 Aug 2025 10:19:00 GMT&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: POST, GET, PUT&#xd;
+Access-Control-Max-Age: 0&#xd;
+Vary: Origin, Access-Control-Request-Headers, Access-Control-Request-Method&#xd;
+x-amz-version-id: IofIRUrZO7BRt3uL8.JGNHl8lLMGND1e&#xd;
+x-amz-server-side-encryption: aws:kms&#xd;
+x-amz-server-side-encryption-aws-kms-key-id: arn:aws:kms:ap-southeast-1:471112950073:key/7e537441-2291-4a72-a2d4-c26401d0fa3d&#xd;
+ETag: "9ccfe75e1fe47f6b141624c9b4d5c18e"&#xd;
+x-amz-checksum-crc64nvme: mnS26tvJeZg=&#xd;
+x-amz-checksum-type: FULL_OBJECT&#xd;
+Content-Length: 0&#xd;
+Server: AmazonS3</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

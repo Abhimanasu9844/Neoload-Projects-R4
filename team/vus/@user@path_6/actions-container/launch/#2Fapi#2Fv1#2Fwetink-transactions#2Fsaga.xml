@@ -1,0 +1,65 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/wetink-transactions/saga"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_6/%resources%/recorded-artifacts/490ab287-7919-4809-b7ab-b3b3e7c2fbc1.zip"
+    slaProfileEnabled="false" thinkTime="5324"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="490ab287-7919-4809-b7ab-b3b3e7c2fbc1">
+    <embedded-action>e03b53e1-caa8-4695-927f-cfe54529edef</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_e441c0d6-e687-4768-839d-d0448da234cd.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/api/v1/wetink-transactions/saga"
+    path="/api/v1/wetink-transactions/saga" postCharset="ISO-8859-1"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path_6/%resources%/recorded-artifacts/490ab287-7919-4809-b7ab-b3b3e7c2fbc1.zip"
+    recordedResponseCode="200" responseSize="430"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="e03b53e1-caa8-4695-927f-cfe54529edef" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_d223b26d-10b2-4a82-987e-1dd742765a44</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_d223b26d-10b2-4a82-987e-1dd742765a44.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/wetInkProperty"/>
+    <header name="headers" value="[object Object]"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="body" value="{&quot;transactionTypeId&quot;:&quot;2e0c1401-fb98-46cf-a466-493151f4c6e6&quot;,&quot;transactionFlowTypeCode&quot;:&quot;WET_INK_OTP&quot;,&quot;initiatedBy&quot;:&quot;VL&quot;,&quot;developerSaleTransactionId&quot;:null,&quot;propertyRequestModel&quot;:{&quot;projectId&quot;:null,&quot;postalCode&quot;:&quot;159011&quot;,&quot;blockHouseNumber&quot;:&quot;2&quot;,&quot;streetName&quot;:&quot;PRINCE CHARLES CRESCENT&quot;,&quot;floorNumber&quot;:&quot;34&quot;,&quot;unitNumber&quot;:&quot;322&quot;,&quot;buildingName&quot;:&quot;MY SAVIOURS' CHURCH&quot;,&quot;propertyTypeId&quot;:&quot;d4b8e122-f62a-4b89-bba8-973b70b296eb&quot;,&quot;propertyStatusId&quot;:&quot;238bcad3-a542-4f56-bf31-901c29307d8b&quot;,&quot;titleNo&quot;:&quot;&quot;,&quot;lotNo&quot;:&quot;&quot;},&quot;transactionUsersModel&quot;:[{&quot;roleId&quot;:&quot;cc4a3e06-8032-48ee-b3e0-ebcf918db99c&quot;,&quot;consentStatusId&quot;:&quot;f83248b3-b375-4bad-b9b9-6caf88929251&quot;,&quot;identificationNoType_Tx&quot;:&quot;7c89ae34-e84a-416e-a67b-967a8dd609fa&quot;,&quot;residentialStatus_Tx&quot;:&quot;163c4d55-9c8a-4a78-8edc-169916a64fcd&quot;,&quot;userName&quot;:&quot;P9999002T&quot;,&quot;identificationNo_Tmp&quot;:&quot;P9999002T&quot;,&quot;emailAddress&quot;:&quot;P9999002T@sladcp.com&quot;,&quot;isSoleWitness&quot;:false},{&quot;roleId&quot;:&quot;90cb971c-61c5-4fe2-bdc6-7be9f82542c9&quot;,&quot;consentStatusId&quot;:&quot;7ecccb3a-37f9-45f7-a7e8-a0fb99e221cb&quot;,&quot;identificationNoType_Tx&quot;:&quot;7c89ae34-e84a-416e-a67b-967a8dd609fa&quot;,&quot;residentialStatus_Tx&quot;:&quot;163c4d55-9c8a-4a78-8edc-169916a64fcd&quot;,&quot;userName&quot;:&quot;PT Staff301&quot;,&quot;userId&quot;:&quot;e98e7bb2-f9d1-40c2-840a-f4682525756a&quot;,&quot;identificationNo_Tmp&quot;:&quot;&quot;,&quot;emailAddress&quot;:&quot;P6666301T@sladcp.com&quot;,&quot;isSoleWitness&quot;:false,&quot;companyType&quot;:&quot;LF&quot;,&quot;companyId&quot;:&quot;e488de57-5a50-4a55-904b-269ece91254b&quot;}]}"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJraWQiOiJzaWctMjAyMy0wOC0xNVQwNjo0NzoxOFoiLCJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1YXQtZGNwLnNsYS5nb3Yuc2ciLCJzdWIiOiJlOThlN2JiMi1mOWQxLTQwYzItODQwYS1mNDY4MjUyNTc1NmEiLCJjb21wYW55SWQiOiJlNDg4ZGU1Ny01YTUwLTRhNTUtOTA0Yi0yNjllY2U5MTI1NGIiLCJyb2xlIjoiTCIsImNvbXBhbnlUeXBlIjoiTEFXRklSTSIsIm5hbWUiOiJQVCBTdGFmZjMwMSIsInNlc3Npb25JZCI6IjAxOThkMTQ4LTg2YmItNzVhMy04ZDQ5LTI1MzQ3MjMzOGMzZiIsImV4cCI6MTc1NTg3OTQ0OH0.7o5SXGtfUTDHPO4EXygAOE2rkndk7oTCc_l1YTb479QrMdViHkDsjZZufxMxDMV0hPGgOF3Jn2wAikFkNnQVVA"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Fri, 22 Aug 2025 10:18:05 GMT&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-dev-tm-fss-landing-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com; img-src 'self' data: api.qrserver.com&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: lEzY4mi7uFbcoKkdzV0wOP02Vj3tsxXqpwzXAspmcdo5Eh8HO1GqIg==&#xd;
+server-timing: cfReqDur;dur=6013.966&#xd;
+cf-team: 2972e21acb0000c17961c2a400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"transactionTypeId":"2e0c1401-fb98-46cf-a466-493151f4c6e6","transactionFlowTypeCode":"WET_INK_OTP","initiatedBy":"VL","developerSaleTransactionId":null,"propertyRequestModel":{"projectId":null,"postalCode":"159011","blockHouseNumber":"2","streetName":"PRINCE CHARLES CRESCENT","floorNumber":"34","unitNumber":"322","buildingName":"MY SAVIOURS' CHURCH","propertyTypeId":"d4b8e122-f62a-4b89-bba8-973b70b296eb","propertyStatusId":"238bcad3-a542-4f56-bf31-901c29307d8b","titleNo":"","lotNo":""},"transactionUsersModel":[{"roleId":"cc4a3e06-8032-48ee-b3e0-ebcf918db99c","consentStatusId":"f83248b3-b375-4bad-b9b9-6caf88929251","identificationNoType_Tx":"7c89ae34-e84a-416e-a67b-967a8dd609fa","residentialStatus_Tx":"163c4d55-9c8a-4a78-8edc-169916a64fcd","userName":"P9999002T","identificationNo_Tmp":"P9999002T","emailAddress":"P9999002T@sladcp.com","isSoleWitness":false},{"roleId":"90cb971c-61c5-4fe2-bdc6-7be9f82542c9","consentStatusId":"7ecccb3a-37f9-45f7-a7e8-a0fb99e221cb","identificationNoType_Tx":"7c89ae34-e84a-416e-a67b-967a8dd609fa","residentialStatus_Tx":"163c4d55-9c8a-4a78-8edc-169916a64fcd","userName":"PT Staff301","userId":"e98e7bb2-f9d1-40c2-840a-f4682525756a","identificationNo_Tmp":"","emailAddress":"P6666301T@sladcp.com","isSoleWitness":false,"companyType":"LF","companyId":"e488de57-5a50-4a55-904b-269ece91254b"}]}]]></textPostContent>
+</http-action>
