@@ -1,0 +1,65 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/v1/transactions/updateStatus"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path_5/%resources%/recorded-artifacts/9c8db97b-95aa-4155-9612-ec96953f9efa.zip"
+    slaProfileEnabled="false" thinkTime="80"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="9c8db97b-95aa-4155-9612-ec96953f9efa">
+    <embedded-action>372a695f-9537-4c8d-bc6a-f8daa9d1e0a4</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_9c8db97b-95aa-4155-9612-ec96953f9efa.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="PUT" name="/api/v1/transactions/updateStatus"
+    path="/api/v1/transactions/updateStatus" postCharset="ISO-8859-1"
+    postType="4"
+    recordedArtifactZipFileName="team/vus/@user@path_5/%resources%/recorded-artifacts/9c8db97b-95aa-4155-9612-ec96953f9efa.zip"
+    recordedResponseCode="200" responseSize="227"
+    serverUid="uat-dcp.sla.gov.sg" slaProfileEnabled="false"
+    uid="372a695f-9537-4c8d-bc6a-f8daa9d1e0a4" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_372a695f-9537-4c8d-bc6a-f8daa9d1e0a4</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_372a695f-9537-4c8d-bc6a-f8daa9d1e0a4.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://uat-dcp.sla.gov.sg/WetInkSummary"/>
+    <header name="headers" value="[object Object]"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="origin" value="https://uat-dcp.sla.gov.sg"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="body" value="{&quot;transactionId&quot;:[&quot;0198d149-06d5-78f7-8041-f7efe3006b15&quot;],&quot;statusCode&quot;:&quot;W_PENDING_DRAFT_S0&quot;}"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="authorization" value="Bearer eyJraWQiOiJzaWctMjAyMy0wOC0xNVQwNjo0NzoxOFoiLCJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1YXQtZGNwLnNsYS5nb3Yuc2ciLCJzdWIiOiJlOThlN2JiMi1mOWQxLTQwYzItODQwYS1mNDY4MjUyNTc1NmEiLCJjb21wYW55SWQiOiJlNDg4ZGU1Ny01YTUwLTRhNTUtOTA0Yi0yNjllY2U5MTI1NGIiLCJyb2xlIjoiTCIsImNvbXBhbnlUeXBlIjoiTEFXRklSTSIsIm5hbWUiOiJQVCBTdGFmZjMwMSIsInNlc3Npb25JZCI6IjAxOThkMTQ4LTg2YmItNzVhMy04ZDQ5LTI1MzQ3MjMzOGMzZiIsImV4cCI6MTc1NTg3OTQ0OH0.7o5SXGtfUTDHPO4EXygAOE2rkndk7oTCc_l1YTb479QrMdViHkDsjZZufxMxDMV0hPGgOF3Jn2wAikFkNnQVVA"/>
+    <header name="sec-ch-ua" value="&quot;Not)A;Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;138&quot;, &quot;Google Chrome&quot;;v=&quot;138&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="content-type" value="application/json"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+content-type: application/json&#xd;
+date: Fri, 22 Aug 2025 10:20:53 GMT&#xd;
+x-frame-options: DENY&#xd;
+content-security-policy: default-src 'self' blob: 'unsafe-inline' cdn.jsdelivr.net fonts.googleapis.com fonts.gstatic.com assets.dcube.cloud www.onemap.gov.sg sst-s3-sla-dcp-dev-tm-fss-landing-01.s3.ap-southeast-1.amazonaws.com app.singpass.gov.sg api.qrserver.com; img-src 'self' data: api.qrserver.com&#xd;
+vary: Origin&#xd;
+vary: Access-Control-Request-Method&#xd;
+vary: Access-Control-Request-Headers&#xd;
+x-content-type-options: nosniff&#xd;
+x-xss-protection: 0&#xd;
+cache-control: no-cache, no-store, max-age=0, must-revalidate&#xd;
+pragma: no-cache&#xd;
+expires: 0&#xd;
+strict-transport-security: max-age=31536000 ; includeSubDomains&#xd;
+x-cache: Miss from cloudfront&#xd;
+via: 1.1 abf1eb055e021fa76f5b3cc60396ccc4.cloudfront.net (CloudFront)&#xd;
+x-amz-cf-pop: BOM78-P10&#xd;
+x-amz-cf-id: pCEKjx90Ouqh1oTvaxVL0lpVBxWouFumhAOBkHYwq6EN8X1ipsxU6w==&#xd;
+server-timing: cfReqDur;dur=700.565&#xd;
+cf-team: 2972e4c0620000c17964aaa400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{"transactionId":["0198d149-06d5-78f7-8041-f7efe3006b15"],"statusCode":"W_PENDING_DRAFT_S0"}]]></textPostContent>
+</http-action>
