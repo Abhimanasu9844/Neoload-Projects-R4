@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Upload otp" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="11a11356-2a5b-47ed-b960-8600673f934a" weightsEnabled="false">
+    <weighted-embedded-action uid="71333954-32be-45c5-9efa-52280880fc57"/>
+    <weighted-embedded-action uid="bf2f4fc1-09f9-4515-8759-99999857ee10"/>
+    <weighted-embedded-action uid="1387b882-751a-4355-9c8c-bbd5789d365c"/>
+    <weighted-embedded-action uid="b264ff96-907e-4254-8ec5-3508dd654bf7"/>
+</basic-logical-action-container>
