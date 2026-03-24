@@ -1,0 +1,8 @@
+<variable-file delimiters="," filename="variables/LoginLogout.txt" name="LoginLogout" offset="170" order="1" policy="5" range="2" uid="f18498df-8d65-4e44-aed2-aca254d52730" useFirstLine="true" whenOutOfValues="STOP_TEST">
+<column name="Email" number="0"/>
+<column name="Mobile" number="1"/>
+<column name="NRIC" number="2"/>
+<column name="Postalcode" number="3"/>
+<column name="Unit" number="4"/>
+<column name="level" number="5"/>
+</variable-file>

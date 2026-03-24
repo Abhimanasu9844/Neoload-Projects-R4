@@ -1,0 +1,10 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Login" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="548771c7-f943-41da-844f-d353d3d0f586" weightsEnabled="false">
+    <weighted-embedded-action uid="16881ef9-cebd-4f19-bebc-8a1788941b0c"/>
+    <weighted-embedded-action uid="d97fbac3-09fd-4709-beac-75bdce656d63"/>
+    <weighted-embedded-action uid="459bb06b-927b-4436-b676-ff8654614cba"/>
+    <weighted-embedded-action uid="1a806e36-c582-4d04-93a3-186f2e4d95e3"/>
+    <weighted-embedded-action uid="8f2f981e-7eec-44e1-8b2a-91f458879b46"/>
+</basic-logical-action-container>

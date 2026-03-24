@@ -1,0 +1,16 @@
+# Project description file
+
+project.name=Login_Logout
+project.version=8.10
+project.original.version=8.10
+product.name=NeoLoad
+product.original.name=NeoLoad
+ssh.trustUnknownHosts.MONITORS=false
+monitor.tls.insecure=false
+product.original.version=2025.1.2
+project.is-open-test-settings-after-upload=false
+project.id=3d7473ba-b553-458c-9569-5df0bcfff515
+project.config.path=config.zip
+project.config.storage=ZIP
+team.server.enabled=true
+team.server.project=/Abhimanasu9844/Neoload-Projects-R4.git

@@ -1,0 +1,30 @@
+<virtual-user errorPolicy="DO_NOTHING"
+    failedAssertionPolicy="DO_NOTHING" slaProfileEnabled="false"
+    type="LEGACY" uid="Login_LogOut">
+    <init-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed once when the Virtual User starts.</description>
+    </init-container>
+    <actions-container clearUserIterationDataMode="AUTO"
+        element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements repeated until the Virtual User stops.</description>
+        <weighted-embedded-action uid="3ebc6866-d53c-4e90-8158-899bccf65908"/>
+        <weighted-embedded-action uid="d9b11356-bc82-4ee2-a883-e2af159f7afe"/>
+        <weighted-embedded-action uid="548771c7-f943-41da-844f-d353d3d0f586"/>
+        <weighted-embedded-action uid="74a793f1-5a90-4c5a-b7b0-80b601a855bb"/>
+        <weighted-embedded-action uid="2b59f02d-b3fa-493b-afca-7539c243349a"/>
+        <weighted-embedded-action uid="07886f21-4584-44b8-b36a-ea22b2b3040e"/>
+        <weighted-embedded-action uid="da1823ea-07ad-4e62-aeeb-13de2a5289db"/>
+    </actions-container>
+    <end-container element-number="1" execution-type="0" pacingEnd="0"
+        pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+        slaProfileEnabled="false" weightsEnabled="false">
+        <description>Elements executed before the Virtual User stops.</description>
+    </end-container>
+    <thinktime-policy thinkTimeMode="MODE_SIMPLE_THINK_TIME"
+        thinktimeFactorValue="100" thinktimePolicy="1"
+        thinktimeRangeValue="0" thinktimeValue="0"/>
+</virtual-user>

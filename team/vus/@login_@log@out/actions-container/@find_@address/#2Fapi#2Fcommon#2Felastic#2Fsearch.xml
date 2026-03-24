@@ -1,0 +1,109 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false"
+    name="/api/common/elastic/search" playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@login_@log@out/%resources%/recorded-artifacts/4dc969ce-b637-475f-9f62-d1c826b31cf1.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="4dc969ce-b637-475f-9f62-d1c826b31cf1">
+    <embedded-action>2c2d57f4-df4e-42a4-863a-0a8ef8871fc7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_1bccb1ce-0e55-4c34-81b7-64ca4b2aa07f.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/api/common/elastic/search"
+    path="/api/common/elastic/search" postType="6"
+    recordedArtifactZipFileName="team/vus/@login_@log@out/%resources%/recorded-artifacts/4dc969ce-b637-475f-9f62-d1c826b31cf1.zip"
+    recordedResponseCode="200" responseSize="569"
+    serverUid="www.onemap.gov.sg" slaProfileEnabled="false"
+    uid="2c2d57f4-df4e-42a4-863a-0a8ef8871fc7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_4be865df-63f9-4a79-a592-a398a9cd36ea</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_4be865df-63f9-4a79-a592-a398a9cd36ea.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_BuildingName"
+        refererUid="2c2d57f4-df4e-42a4-863a-0a8ef8871fc7"
+        regExp="&quot;SEARCHVAL&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;SEARCHVAL&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="128c19d3-07cc-4c74-9d4d-b84e74402f53" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Road_Name"
+        refererUid="2c2d57f4-df4e-42a4-863a-0a8ef8871fc7"
+        regExp=" &quot;ROAD_NAME&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple=" &quot;ROAD_NAME&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="5616ed7f-0d9e-4e83-898c-30448341be00" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&quot;" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="C_Block_Number"
+        refererUid="2c2d57f4-df4e-42a4-863a-0a8ef8871fc7"
+        regExp="&quot;BLK_NO&quot;: &quot;(.*?)&quot;" regExpAdv=""
+        setDefaultValue="true"
+        startsWithSimple="&quot;BLK_NO&quot;: &quot;" template="$1$"
+        templateAdv="$1$" uid="43febe6c-885b-40b8-b485-45472a68d301" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <parameter encodeName="true" encodeValue="true" name="searchVal"
+        recordRawValue="787878" separator="="
+        value="${LoginLogout.Postalcode}" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true" name="returnGeom"
+        recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <parameter encodeName="true" encodeValue="true"
+        name="getAddrDetails" recordRawValue="Y" separator="=" value="Y" valueMode="USE_VALUE"/>
+    <header name="sec-fetch-mode" value="cors"/>
+    <header name="referer" value="https://demo-dcp.sla.gov.sg/"/>
+    <header name="sec-ch-ua" value="&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;"/>
+    <header name="sec-fetch-site" value="cross-site"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="origin" value="https://demo-dcp.sla.gov.sg"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="priority" value="u=1, i"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="empty"/>
+    <header name="accept" value="application/json, text/plain, */*"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Wed, 14 Jan 2026 07:09:51 GMT&#xd;
+content-type: application/json&#xd;
+content-length: 569&#xd;
+x-amzn-requestid: 82d8c9f0-6dd0-4455-ab75-1e568506321d&#xd;
+referrer-policy: no-referrer&#xd;
+x-xss-protection: 0&#xd;
+access-control-allow-origin: *&#xd;
+access-control-allow-headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,x-signalr-user-agent,X-Amz-Date,X-Api-Key,X-Amz-Security-Token&#xd;
+access-control-allow-headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,x-signalr-user-agent&#xd;
+access-control-allow-headers: DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Accept,Authorization,x-signalr-user-agent&#xd;
+content-security-policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests&#xd;
+content-security-policy: upgrade-insecure-requests;&#xd;
+x-amz-apigw-id: XKch8E0YyQ0FhZw=&#xd;
+access-control-allow-methods: GET,OPTIONS&#xd;
+access-control-allow-methods: GET, POST, OPTIONS, HEAD&#xd;
+access-control-allow-methods: GET, POST, PUT, DELETE, PATCH, PURGE, HEAD, OPTIONS, FETCH&#xd;
+access-control-allow-methods: GET, POST, PUT, DELETE, PATCH, PURGE, HEAD, OPTIONS, FETCH&#xd;
+x-amzn-trace-id: Root=1-6967413f-2e6ac3d627c626e71fb4bce6&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+x-remote-addr: 104.30.161.23&#xd;
+set-cookie: _toffsuid=rB8oSmlnQT9mM1C9BAANAg==; expires=Wed, 13-Jan-27 07:09:51 GMT; path=/; Secure; HttpOnly; SameSite=strict&#xd;
+accept-ranges: bytes&#xd;
+server-timing: cfReqDur;dur=1249.785&#xd;
+cf-team: 2c5ceff22a0003673d8f51a400000001</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Select_Default_Profile" pacingEnd="0"
+    pacingMode="MODE_NO_PACING" pacingStart="0" pacingValue="0"
+    slaProfileEnabled="false" uid="07886f21-4584-44b8-b36a-ea22b2b3040e" weightsEnabled="false">
+    <weighted-embedded-action uid="93a5fad1-f972-45d8-a323-423193dd29f1"/>
+    <weighted-embedded-action uid="a63e86b3-b50f-4afa-918e-7422e65f36a6"/>
+</basic-logical-action-container>
