@@ -1,0 +1,7 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Launch_The_Page_3" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="c17ed7c0-f353-4796-b703-8f20b54ae78e" weightsEnabled="false">
+    <weighted-embedded-action uid="92a9a340-a5f5-4102-b67b-53f223632cbe"/>
+    <weighted-embedded-action uid="0e4c7b9b-7a9f-4b76-800f-f92983984119"/>
+</basic-logical-action-container>
