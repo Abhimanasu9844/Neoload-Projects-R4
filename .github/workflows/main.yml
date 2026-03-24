@@ -21,7 +21,7 @@ jobs:
       - name: NeoLoad Performance Test
         run: |
           neoload run \
-          -project ./neoload/project.nlp \
+          -project ./neoload/R2_07_Wetink.nlp \
           -scenario "SmokeTest" \
           --fail-on-sla-error
 
