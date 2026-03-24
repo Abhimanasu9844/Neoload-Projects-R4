@@ -1,0 +1,56 @@
+name: Pre-Prod CI/CD Pipeline
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  preprod-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout Code
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # 2. Build Application
+      - name: Build Application
+        run: |
+          echo "Building application..."
+          # Example:
+          # mvn clean install
+
+      # 3. Run Functional Tests
+      - name: Run Functional Tests
+        run: |
+          echo "Running functional tests..."
+          # Example:
+          # mvn test
+
+      # 4. Install NeoLoad CLI (if needed)
+      - name: Install NeoLoad CLI
+        run: |
+          echo "Install NeoLoad CLI here"
+          # Add installation command if not pre-installed
+
+      # 5. Run NeoLoad Performance Test
+      - name: Run NeoLoad Test (Pre-Prod)
+        run: |
+          neoload run \
+          -project ./neoload/R678.nlp \
+          -scenario "PreProd_Scenario" \
+          --fail-on-sla-error
+
+      # 6. Generate Report
+      - name: Generate Report
+        run: |
+          neoload report \
+          -result result.nlr \
+          -output preprod-report.html
+
+      # 7. Upload Report
+      - name: Upload Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: preprod-report
+          path: preprod-report.html
