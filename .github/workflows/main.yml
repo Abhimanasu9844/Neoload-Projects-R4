@@ -1,0 +1,35 @@
+name: CI-CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Build
+        run: mvn clean install
+
+      - name: Functional Test
+        run: mvn test
+
+      - name: NeoLoad Performance Test
+        run: |
+          neoload run \
+          -project ./neoload/project.nlp \
+          -scenario "SmokeTest" \
+          --fail-on-sla-error
+
+      - name: Generate Report
+        run: neoload report -result result.nlr -output report.html
+
+      - name: Upload Report
+        uses: actions/upload-artifact@v3
+        with:
+          name: report
+          path: report.html
