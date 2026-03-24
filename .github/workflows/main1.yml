@@ -37,7 +37,7 @@ jobs:
       - name: Run NeoLoad Test (Pre-Prod)
         run: |
           neoload run \
-          -project ./neoload/R678.nlp \
+          -project ./neoload/R2_07_Wetink.nlp \
           -scenario "PreProd_Scenario" \
           --fail-on-sla-error
 
